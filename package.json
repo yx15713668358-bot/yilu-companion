@@ -13,7 +13,7 @@
     "qa": "node scripts/qa.mjs",
     "qa:single": "node scripts/qa.mjs --single",
     "data:migrate-v6": "node scripts/migrate-v6-data.mjs",
-    "assets:refresh": "node scripts/migrate-game-assets.mjs",
+    "assets:refresh": "node scripts/migrate-datadragon-assets.mjs",
     "verify": "npm run check:official && npm run build && npm run build:single && npm run qa && npm run qa:single"
   },
   "dependencies": {

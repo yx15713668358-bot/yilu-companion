@@ -1,1781 +1,1732 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T03:24:06.260Z",
-  "dataDragonPatch": "16.17.1",
-  "communityDragonVersion": "16.17",
+  "generatedAt": "2026-09-04T04:39:30.894Z",
+  "dataDragonVersion": "16.17.1",
   "assets": {
     "tencent-champion:100308": {
-      "file": "tencent-champion-100308.png",
+      "file": "ddragon-DA_18_Veigar.png",
       "displayNames": [
         "维迦"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_veigar/skins/base/images/tft18_veigar_splash_tile_13.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Veigar_splash_centered_13.TFT_Set18.png",
       "upstreamApiName": "DA_18_Veigar",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 79526,
-      "sha256": "e9943c1b239d696ba92f92569eb239a73f97f4a2347523bdf1750a7c13d60587"
+      "bytes": 53661,
+      "sha256": "1e7f8498fee3a1a3fa2444e727d006938c3429a62eab604a3976513a2d9956ee"
     },
     "tencent-champion:100301": {
-      "file": "tencent-champion-100301.png",
+      "file": "ddragon-DA_18_Kobuko.png",
       "displayNames": [
         "可酷伯"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_kobuko/skins/base/images/tft18_kobuko_splash_tile_2.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Kobuko_splash_centered_2.TFT_Set18.png",
       "upstreamApiName": "DA_18_Kobuko",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 85104,
-      "sha256": "2a177f7d9ad512a0c97e62a5b33ea193c3328109081f149f417a8036d363623d"
+      "bytes": 54857,
+      "sha256": "06114fe9c0f023d73e910d3cd5256a48f7cefb36b940caea932bc26af5f7f5f1"
     },
     "tencent-champion:100305": {
-      "file": "tencent-champion-100305.png",
+      "file": "ddragon-DA_18_RekSai.png",
       "displayNames": [
         "雷克塞"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_reksai/skins/base/images/tft18_reksai_splash_tile_17.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_RekSai_splash_centered_17.TFT_Set18.png",
       "upstreamApiName": "DA_18_RekSai",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 88608,
-      "sha256": "e90198bc38fb872c74dc13ff99c49436dd66ae3740d900a96fb0e52545d54406"
+      "bytes": 54157,
+      "sha256": "6c384fb594e7bf7953f3bbc16e775144c55ce6214f9b9e179e13c8edd6b86ea0"
     },
     "tencent-champion:100357": {
-      "file": "tencent-champion-100357.png",
+      "file": "ddragon-DA_18_GnarSmall.png",
       "displayNames": [
         "纳尔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_gnar/skins/base/images/tft18_gnar_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Gnar_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_GnarSmall",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 77751,
-      "sha256": "bf6b3c99d49d71a45335b7c8f9102da79be96e2e2b55e036bd622502d892947e"
+      "bytes": 45803,
+      "sha256": "0ab01ecebd4c16f73a1ca809a820a14c36b49f5420963654d67e028e614edabc"
     },
     "tencent-champion:100346": {
-      "file": "tencent-champion-100346.png",
+      "file": "ddragon-DA_18_Sett.png",
       "displayNames": [
         "瑟提"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_sett/skins/base/images/tft18_sett_splash_tile_38.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Sett_splash_centered_38.TFT_Set18.png",
       "upstreamApiName": "DA_18_Sett",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 80797,
-      "sha256": "346cdb46deacfc7d80f49b3ead9a38d1e865ca61db17b255db3a9fd4aa9904e9"
+      "bytes": 55940,
+      "sha256": "6a773fbb5ac90f97d85a58179b1bd82e9e7ef6a5429eb19cabc0a028132044e3"
     },
     "tencent-champion:100336": {
-      "file": "tencent-champion-100336.png",
+      "file": "ddragon-DA_Fiddlesticks18.png",
       "displayNames": [
         "费德提克"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_fiddlesticks/skins/base/images/tft18_fiddlesticks_splash_tile_46.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Fiddlesticks_splash_centered_46.TFT_Set18.png",
       "upstreamApiName": "DA_Fiddlesticks18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 81123,
-      "sha256": "6ab38b9047c7033c9d6cce88c331338ab46c11f27743bc9bbdf4fceb08d1c29e"
+      "bytes": 50105,
+      "sha256": "637368e9d735f00bbfc4ecb318fe17847c0bfc8c68e0d6d2917a54487c14db59"
     },
     "tencent-champion:100332": {
-      "file": "tencent-champion-100332.png",
+      "file": "ddragon-DA_18_Rammus.png",
       "displayNames": [
         "拉莫斯"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_rammus/skins/base/images/tft18_rammus_splash_tile_26.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Rammus_splash_centered_26.TFT_Set18.png",
       "upstreamApiName": "DA_18_Rammus",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 70601,
-      "sha256": "fb222ca64938f4645a40b36908a4104e75e1a899f6971a5ffde0224f72e48412"
+      "bytes": 57061,
+      "sha256": "8a9fd59a3bb15dd419f547f0f741a57724079adc4598967d593eefa69af9e899"
     },
     "tencent-champion:100320": {
-      "file": "tencent-champion-100320.png",
+      "file": "ddragon-DA_18_Teemo.png",
       "displayNames": [
         "提莫"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_teemo/skins/base/images/tft18_teemo_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Teemo_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Teemo",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 86019,
-      "sha256": "abcf81214cbef786b1f29b6cf8b6d9f20ff849fdb3ddcf55241339341df555fa"
+      "bytes": 49279,
+      "sha256": "6a4084906e2261c6a79f4521e058c3648295446d6624cef2340d2e3e94391cd3"
     },
     "moba-item:blue-buff2": {
-      "file": "moba-item-blue-buff2.png",
+      "file": "ddragon-DA_BlueBuff.png",
       "displayNames": [
         "蓝霸符"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_BlueBuff.png",
       "upstreamApiName": "DA_BlueBuff",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14368,
-      "sha256": "037e9eda972bc23ac8175f0e93c4d528b784a54e7f12da69f542b19dc7e38f87"
+      "bytes": 17752,
+      "sha256": "7348a4b29509b616fe4b5fa9cd1dec3690db5c6eaf82d7bb9c02f1564bfe607d"
     },
     "moba-item:jeweled-gauntlet": {
-      "file": "moba-item-jeweled-gauntlet.png",
+      "file": "ddragon-DA_JeweledGauntlet.png",
       "displayNames": [
         "珠光护手"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_JeweledGauntlet.png",
       "upstreamApiName": "DA_JeweledGauntlet",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14425,
-      "sha256": "2ba30f0b4804d530285d6dd151d4c33d360a418afba1ab46807c7d32ecd7ca89"
+      "bytes": 18245,
+      "sha256": "9489c6a7d12e45818e280deefcf99c47934f7aa6083a924d3678e8ac4a4ac642"
     },
     "moba-item:flora-fatalis-emblem": {
-      "file": "moba-item-flora-fatalis-emblem.png",
+      "file": "ddragon-DA_18_EmblemFloraFatalis.png",
       "displayNames": [
         "绝命花妖纹章"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_florafatalis.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_18_EmblemFloraFatalis.png",
       "upstreamApiName": "DA_18_EmblemFloraFatalis",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14335,
-      "sha256": "1cb7479e83f4222dafceabc9c30403c0dcafe919f0fc9934136f6b6fc003a1ed"
+      "bytes": 29324,
+      "sha256": "2c9bc72ad412ed800128b8e494e87496565e302906d95d302ebe7051202b27e3"
     },
     "moba-item:gargoyle-stoneplate": {
-      "file": "moba-item-gargoyle-stoneplate.png",
+      "file": "ddragon-DA_GargoyleStoneplate.png",
       "displayNames": [
         "石像鬼石板甲"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_GargoyleStoneplate.png",
       "upstreamApiName": "DA_GargoyleStoneplate",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14696,
-      "sha256": "e3b5b64199be453ac65cb89709ce1dc6e977c63b0f7e4951b1a8512d7f80007b"
+      "bytes": 19657,
+      "sha256": "66ad2e92561c0ac7f605204f9fbfd87a417d14020898962b761a08698e79d82e"
     },
     "moba-item:warmogs-armor": {
-      "file": "moba-item-warmogs-armor.png",
+      "file": "ddragon-DA_WarmogsArmor.png",
       "displayNames": [
         "狂徒铠甲"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_WarmogsArmor.png",
       "upstreamApiName": "DA_WarmogsArmor",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 17116,
-      "sha256": "4c75e21ba9cf3bcdf7704e430e22eda8fc04e58378f863c3f039bb92834dbf45"
+      "bytes": 35184,
+      "sha256": "8e2a8155acceb554b10b1af2f844419c5bc3570bca129cf65b787a3adc34fb32"
     },
     "moba-item:spiritvisage": {
-      "file": "moba-item-spiritvisage.png",
+      "file": "ddragon-DA_SpiritVisage.png",
       "displayNames": [
         "振奋盔甲"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_SpiritVisage.png",
       "upstreamApiName": "DA_SpiritVisage",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 18644,
-      "sha256": "2924c16eb21347954fac3dc02efcc1ec51ba64e25ebf856d8148974033e5e9ea"
+      "bytes": 30346,
+      "sha256": "b054443caf797b00ad2a1bca93b86aa4313eea7a9e596f067bd748cc66f523da"
     },
     "moba-champion:karma": {
-      "file": "moba-champion-karma.png",
+      "file": "ddragon-DA_Karma18.png",
       "displayNames": [
         "卡尔玛"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_karma/skins/base/images/tft18_karma_splash_tile_70.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Karma_splash_centered_70.TFT_Set18.png",
       "upstreamApiName": "DA_Karma18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 91995,
-      "sha256": "6edbccf37b2189847bc0329b4d39d1cf4b9e404b4d75f3cad809c11316b4893e"
+      "bytes": 56748,
+      "sha256": "e48189b3e198cec084feea2a333b00dbc9ccb66b46643a2c95edf692683a7643"
     },
     "moba-champion:tristana": {
-      "file": "moba-champion-tristana.png",
+      "file": "ddragon-DA_18_Tristana.png",
       "displayNames": [
         "崔丝塔娜"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_tristana/skins/base/images/tft18_tristana_splash_tile_61.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Tristana_splash_centered_61.TFT_Set18.png",
       "upstreamApiName": "DA_18_Tristana",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 92260,
-      "sha256": "9c6b56b0183c325cf052c95c184067f28212210b15a04787a1e3f285a1a21f79"
+      "bytes": 57265,
+      "sha256": "7b70e00e0ddf8ce0dc0944bd7ef43822d836dfd590f955f41db281c5a3650f0f"
     },
     "moba-champion:ivern": {
-      "file": "moba-champion-ivern.png",
+      "file": "ddragon-DA_18_Ivern.png",
       "displayNames": [
         "艾翁"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_ivern/skins/base/images/tft18_ivern_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Ivern_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Ivern",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 78521,
-      "sha256": "fd4e63a806accff4c5fe79167f261e27042f318be09a7bb548cdf8e5396cd39b"
+      "bytes": 53551,
+      "sha256": "c79bd2147661e6f58e0972bcd9b2fe376638b4736e214ecaa67d20744a4b4c0b"
     },
     "moba-champion:kennen": {
-      "file": "moba-champion-kennen.png",
+      "file": "ddragon-DA_18_Kennen.png",
       "displayNames": [
         "凯南"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_kennen/skins/base/images/tft18_kennen_splash_tile_8.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Kennen_splash_centered_8.TFT_Set18.png",
       "upstreamApiName": "DA_18_Kennen",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 86494,
-      "sha256": "7f25e7f5e089ccde8b84acee626da918f21d13f67299d0815bab117aad6b1b61"
+      "bytes": 47758,
+      "sha256": "e9e294df7a583c8a8558f0022f2d9904513fd4f107ff2054ee0541dc4577f3f8"
     },
     "moba-champion:alistar": {
-      "file": "moba-champion-alistar.png",
+      "file": "ddragon-DA_18_Alistar.png",
       "displayNames": [
         "阿利斯塔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_alistar/skins/base/images/tft18_alistar_splash_tile_40.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Alistar_splash_centered_40.TFT_Set18.png",
       "upstreamApiName": "DA_18_Alistar",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 80430,
-      "sha256": "9b51f4d2615ec697a4ac850207d3f2b351f83c0530a4276516696a98dd6fb3ba"
+      "bytes": 47652,
+      "sha256": "7962a5478e563083a346c8e47f751c33d4606001f57ce640ca58d8a1787085ce"
     },
     "moba-champion:teemo": {
-      "file": "moba-champion-teemo.png",
+      "file": "ddragon-DA_18_Teemo.png",
       "displayNames": [
         "提莫"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_teemo/skins/base/images/tft18_teemo_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Teemo_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Teemo",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 64695,
-      "sha256": "e202ad757f8b799a43ccbf98e35b2fee5c8049d3141780afc90a59213f7865ae"
+      "bytes": 49279,
+      "sha256": "6a4084906e2261c6a79f4521e058c3648295446d6624cef2340d2e3e94391cd3"
     },
     "moba-champion:rammus": {
-      "file": "moba-champion-rammus.png",
+      "file": "ddragon-DA_18_Rammus.png",
       "displayNames": [
         "拉莫斯"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_rammus/skins/base/images/tft18_rammus_splash_tile_26.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Rammus_splash_centered_26.TFT_Set18.png",
       "upstreamApiName": "DA_18_Rammus",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 55511,
-      "sha256": "2cfd431de3c8cc71db0cc4ba15cfb9d1aa39100c8cb41e919c520e3bc437fa61"
+      "bytes": 57061,
+      "sha256": "8a9fd59a3bb15dd419f547f0f741a57724079adc4598967d593eefa69af9e899"
     },
     "tencent-champion:100331": {
-      "file": "tencent-champion-100331.png",
+      "file": "ddragon-DA_18_MasterYi_AD.png",
       "displayNames": [
         "易"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_masteryi/skins/base/images/tft18_masteryi_splash_tile_52.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_MasterYi_splash_centered_52.TFT_Set18.png",
       "upstreamApiName": "DA_18_MasterYi_AD",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 96658,
-      "sha256": "7a054740923c91586cc0cdab71e720c1ef55999b172c9c62d1540957cff153bb"
+      "bytes": 55775,
+      "sha256": "c928d2b2125d38e50c79c4c5f7a80586cdce508a71b0353e4fa9d0c15aa522f1"
     },
     "tencent-champion:100338": {
-      "file": "tencent-champion-100338.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "远古石甲虫"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_krug/skins/base/images/t_18_krug_teamplannersplash.png",
-      "upstreamApiName": "DA_Krug18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 75724,
-      "sha256": "766b63ef4b64006db9965504c1c2758c210ed53518bcb620b57d88d778a9d924"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "tencent-champion:100337": {
-      "file": "tencent-champion-100337.png",
+      "file": "ddragon-DA_KogMaw18_AD.png",
       "displayNames": [
         "克格莫"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_kogmaw/skins/base/images/tft18_kogmaw_splash_tile_3.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_KogMaw_splash_centered_3.TFT_Set18.png",
       "upstreamApiName": "DA_KogMaw18_AD",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 85296,
-      "sha256": "a2e7949b9374de59373921dc9207dab7f9934c61c93e569ce65a678277962959"
+      "bytes": 44262,
+      "sha256": "9bc2f19a18f0bd2847dd8effd0ed7d113d3bf673b1031c694cb3a0784267dade"
     },
     "tencent-champion:100352": {
-      "file": "tencent-champion-100352.png",
+      "file": "ddragon-DA_Nidalee18_AP.png",
       "displayNames": [
         "奈德丽"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_nidalee/skins/base/images/tft18_nidalee_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Nidalee_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_Nidalee18_AP",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 80030,
-      "sha256": "c82f26ee323f9800944b0c7828c481d769389d4e847794cbc27c2f4f458f3e95"
+      "bytes": 52322,
+      "sha256": "6c03cf4b804481d1458889f183a7057ecfd0e23763a80315d5519656c921e23c"
     },
     "tencent-champion:100339": {
-      "file": "tencent-champion-100339.png",
+      "file": "ddragon-DA_Vi18.png",
       "displayNames": [
         "蔚"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_vi/skins/base/images/tft18_vi_splash_tile_39.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Vi_splash_centered_39.TFT_Set18.png",
       "upstreamApiName": "DA_Vi18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 88957,
-      "sha256": "9fd54727466dd11ccf893086984cb1941cd77f31f6b03f231edf865586e01502"
+      "bytes": 56345,
+      "sha256": "4dba1a71e5a9e48be0bcd2d315846cbd4ce2dcb8f2f971656ddde37b1e3954e8"
     },
     "tencent-champion:100323": {
-      "file": "tencent-champion-100323.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "魔沼蛙"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_gromp/skins/base/images/t_18_gromp_teamplannersplash.png",
-      "upstreamApiName": "DA_Gromp18_AP",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 67922,
-      "sha256": "3fd588699e93d6ab1873f1398645deac13dbd75296a0471081e38cb45d519568"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "tencent-champion:100310": {
-      "file": "tencent-champion-100310.png",
+      "file": "ddragon-DA_18_Yorick.png",
       "displayNames": [
         "约里克"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_yorick/skins/base/images/tft18_yorick_splash_tile_30.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Yorick_splash_centered_30.TFT_Set18.png",
       "upstreamApiName": "DA_18_Yorick",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 76264,
-      "sha256": "3261c76fae44b39c3fe1394bae795bb4da75644440403572f195e5154c3719f2"
+      "bytes": 52975,
+      "sha256": "f093e9076a17797a82cee0e27e38d30ef394d6fd108de12eccea767d77e706eb"
     },
     "tencent-item:93124": {
-      "file": "tencent-item-93124.png",
+      "file": "ddragon-DA_GuinsoosRageblade.png",
       "displayNames": [
         "鬼索的狂暴之刃"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_GuinsoosRageblade.png",
       "upstreamApiName": "DA_GuinsoosRageblade",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15746,
-      "sha256": "70a4bbe26daddd0fb7be5da1136a1c8ee935403d6fab493c53cc78a5239d17cc"
+      "bytes": 29291,
+      "sha256": "d65911d38f9b75521c06d0e6638fb954c09afe31b834262020fe4598270653fd"
     },
     "tencent-item:93091": {
-      "file": "tencent-item-93091.png",
+      "file": "ddragon-DA_EdgeOfNight.png",
       "displayNames": [
         "夜之锋刃"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_EdgeOfNight.png",
       "upstreamApiName": "DA_EdgeOfNight",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 17022,
-      "sha256": "0f0a28f9f4e0b0d4b716e6fda235b86675141ecf5adf24bb4e5007a84eed4b0e"
+      "bytes": 30197,
+      "sha256": "081b6521ae04d0c82507e64a53c64a619f560364f2498f7b1a891b3c3d942610"
     },
     "tencent-item:93321": {
-      "file": "tencent-item-93321.png",
+      "file": "ddragon-DA_TitansResolve.png",
       "displayNames": [
         "泰坦的坚决"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_TitansResolve.png",
       "upstreamApiName": "DA_TitansResolve",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 16842,
-      "sha256": "a2da7118a2f79ad8a5a4689545842b93b0e680852709680481e6ac533fc4702e"
+      "bytes": 22513,
+      "sha256": "843616534562c2eba786a3b56206fd8ef97248194f4fd630fea6b99481f5a4ee"
     },
     "tencent-item:93242": {
-      "file": "tencent-item-93242.png",
+      "file": "ddragon-DA_GargoyleStoneplate.png",
       "displayNames": [
         "石像鬼石板甲"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_GargoyleStoneplate.png",
       "upstreamApiName": "DA_GargoyleStoneplate",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14696,
-      "sha256": "e3b5b64199be453ac65cb89709ce1dc6e977c63b0f7e4951b1a8512d7f80007b"
+      "bytes": 19657,
+      "sha256": "66ad2e92561c0ac7f605204f9fbfd87a417d14020898962b761a08698e79d82e"
     },
     "tencent-item:93109": {
-      "file": "tencent-item-93109.png",
+      "file": "ddragon-DA_BrambleVest.png",
       "displayNames": [
         "棘刺背心"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_BrambleVest.png",
       "upstreamApiName": "DA_BrambleVest",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15639,
-      "sha256": "36fb7e98a742b6bda36ae7c941197de5c5b1f63f954da736d3e7a2b7e52f78ed"
+      "bytes": 21695,
+      "sha256": "bf834251ae6aca37c5ed3089807177d1160172d9a13cedd272603bfcac27bd42"
     },
     "tencent-item:93287": {
-      "file": "tencent-item-93287.png",
+      "file": "ddragon-DA_SpiritVisage.png",
       "displayNames": [
         "振奋盔甲"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_SpiritVisage.png",
       "upstreamApiName": "DA_SpiritVisage",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 18644,
-      "sha256": "2924c16eb21347954fac3dc02efcc1ec51ba64e25ebf856d8148974033e5e9ea"
+      "bytes": 30346,
+      "sha256": "b054443caf797b00ad2a1bca93b86aa4313eea7a9e596f067bd748cc66f523da"
     },
     "moba-champion:gnar": {
-      "file": "moba-champion-gnar.png",
+      "file": "ddragon-DA_18_GnarSmall.png",
       "displayNames": [
         "纳尔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_gnar/skins/base/images/tft18_gnar_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Gnar_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_GnarSmall",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 56222,
-      "sha256": "2faca1c96aeea94f4df7402bb48f71f2ea01cc618eaeb9dcf8004a6e329be994"
+      "bytes": 45803,
+      "sha256": "0ab01ecebd4c16f73a1ca809a820a14c36b49f5420963654d67e028e614edabc"
     },
     "moba-champion:ashe": {
-      "file": "moba-champion-ashe.png",
+      "file": "ddragon-DA_18_Ashe.png",
       "displayNames": [
         "艾希"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_ashe/skins/base/images/tft18_ashe_splash_tile_76.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Ashe_splash_centered_76.TFT_Set18.png",
       "upstreamApiName": "DA_18_Ashe",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 90080,
-      "sha256": "b488ff8ddc1260fb7371cd99353c2d0443e2b23feefd9e9f751bccdc8a29a8f2"
+      "bytes": 53526,
+      "sha256": "c53ea41b1e7d3dab9d0430b798c77ec9f9c9e339a2fc0de2134f5cb9edf4c4a9"
     },
     "moba-champion:yorick": {
-      "file": "moba-champion-yorick.png",
+      "file": "ddragon-DA_18_Yorick.png",
       "displayNames": [
         "约里克"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_yorick/skins/base/images/tft18_yorick_splash_tile_30.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Yorick_splash_centered_30.TFT_Set18.png",
       "upstreamApiName": "DA_18_Yorick",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 57527,
-      "sha256": "7c4c218fe0cc0e1866d9c7f012a0ac90f26dd23d24b218613fe67cac890fe121"
+      "bytes": 52975,
+      "sha256": "f093e9076a17797a82cee0e27e38d30ef394d6fd108de12eccea767d77e706eb"
     },
     "moba-champion:gromp": {
-      "file": "moba-champion-gromp.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "魔沼蛙"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_gromp/skins/base/images/t_18_gromp_teamplannersplash.png",
-      "upstreamApiName": "DA_Gromp18_AP",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 51073,
-      "sha256": "e5c2bafa9409f4cc96b3860db98abb3e45e39176bcf1abcc1ccec282298fdaef"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-champion:malphite": {
-      "file": "moba-champion-malphite.png",
+      "file": "ddragon-DA_18_Malphite.png",
       "displayNames": [
         "墨菲特"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_malphite/skins/base/images/tft18_malphite_splash_tile_27.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Malphite_splash_centered_27.TFT_Set18.png",
       "upstreamApiName": "DA_18_Malphite",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 67282,
-      "sha256": "a769efc045b2a6dec7ce62aff6e20d59d416c9f113d2a79f49cade2e71a10eb1"
+      "bytes": 39451,
+      "sha256": "7e97c2136857e5c2127b2d7d46427a1ed8d9ece7acd84dd1131e443eead52872"
     },
     "tencent-champion:100347": {
-      "file": "tencent-champion-100347.png",
+      "file": "ddragon-DA_18_Sivir.png",
       "displayNames": [
         "希维尔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_tile_61.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Sivir_splash_centered_61.TFT_Set18.png",
       "upstreamApiName": "DA_18_Sivir",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 98127,
-      "sha256": "72e1536b6473e3a36f466fe1a352ccdf00e791cf376bbcb85a21c8faebde7903"
+      "bytes": 56381,
+      "sha256": "4688ba11f601f16ce3a71bcaba953baefcaeb1031b8f4d9a18dba8bc01a35f21"
     },
     "tencent-champion:100355": {
-      "file": "tencent-champion-100355.png",
+      "file": "ddragon-DA_18_Ashe.png",
       "displayNames": [
         "艾希"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_ashe/skins/base/images/tft18_ashe_splash_tile_76.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Ashe_splash_centered_76.TFT_Set18.png",
       "upstreamApiName": "DA_18_Ashe",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 64170,
-      "sha256": "b5aba13d8946c30918bb53b573963da841d48eab73c44d6acb15bd91e6d76fd4"
+      "bytes": 53526,
+      "sha256": "c53ea41b1e7d3dab9d0430b798c77ec9f9c9e339a2fc0de2134f5cb9edf4c4a9"
     },
     "moba-champion:sentinel": {
-      "file": "moba-champion-sentinel.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "远古哨兵"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_sentinel/skins/base/images/t_18_sentinel_teamplannersplash.png",
-      "upstreamApiName": "DA_Sentinel18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 80919,
-      "sha256": "06307d6b884feb09c9bbf05abc59ca1b55cd6b8317b70b6e8ec41e3b1fa628cf"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "tencent-champion:100351": {
-      "file": "tencent-champion-100351.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "Brambleback（红怪）",
         "绯红印记树怪"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_brambleback/skins/base/images/t_18_brambleback_teamplannersplash.png",
-      "upstreamApiName": "DA_Brambleback18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 93766,
-      "sha256": "110c8cea6663f8b92b785425e65c8d798f277e2ec88bf74b7600e4ec787a42e0"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-item:redbuff": {
-      "file": "moba-item-redbuff.png",
+      "file": "ddragon-DA_RedBuff.png",
       "displayNames": [
         "红霸符"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_RedBuff.png",
       "upstreamApiName": "DA_RedBuff",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 13907,
-      "sha256": "000950d631f984ef2982de5faf639ac7f7db147aa9b091f1d72145fca1f5f0de"
+      "bytes": 21919,
+      "sha256": "8eabdbd1499c38fd09976a809368a5e8dcc675c19d70b665418ed291041b6d85"
     },
     "moba-item:giant-slayer": {
-      "file": "moba-item-giant-slayer.png",
+      "file": "ddragon-DA_GiantSlayer.png",
       "displayNames": [
         "巨人杀手"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_GiantSlayer.png",
       "upstreamApiName": "DA_GiantSlayer",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15196,
-      "sha256": "05760e500c46ea8918b3607ef89d0961f48bc76409479d88d1bb363da451d87c"
+      "bytes": 19621,
+      "sha256": "7c8a10b215c1abb99d8c89af4e9e95cbe72f25ac0bad7a2fb45f9af9614f529d"
     },
     "moba-item:spear-of-shojin2": {
-      "file": "moba-item-spear-of-shojin2.png",
+      "file": "ddragon-DA_SpearOfShojin.png",
       "displayNames": [
         "朔极之矛"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_SpearOfShojin.png",
       "upstreamApiName": "DA_SpearOfShojin",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14277,
-      "sha256": "f6ad935fccebfc2b2933226be9481325e054af3fd606d7d4f78fab642c1b0198"
+      "bytes": 19128,
+      "sha256": "37d06611f4c35b1b9cb6d05011f8d6493c02b18ca1a2eae8e019a804e477602e"
     },
     "moba-item:crownguard": {
-      "file": "moba-item-crownguard.png",
+      "file": "ddragon-DA_Crownguard.png",
       "displayNames": [
         "冕卫"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_crownguard.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_Crownguard.png",
       "upstreamApiName": "DA_Crownguard",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15100,
-      "sha256": "1c8ee4aecde742978bce5acf00f72a83c0de966f6f3412849502172c182979e2"
+      "bytes": 25321,
+      "sha256": "94209f9600d843d6bd1c4a09212799683c8d44f117f361e9effaf122cd173cb5"
     },
     "moba-item:last-whisper": {
-      "file": "moba-item-last-whisper.png",
+      "file": "ddragon-DA_LastWhisper.png",
       "displayNames": [
         "最后的轻语"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_LastWhisper.png",
       "upstreamApiName": "DA_LastWhisper",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 12533,
-      "sha256": "344a3b3565a2037189aae9e784d272d77925d1bc018e6f7f1dfbe6faf4621259"
+      "bytes": 17238,
+      "sha256": "7fa883e71bfdec6bb5b5418ed599064bbd05e5e6223f245c72cb87ffa0817547"
     },
     "moba-item:guardbreaker": {
-      "file": "moba-item-guardbreaker.png",
+      "file": "ddragon-DA_StrikersFlail.png",
       "displayNames": [
         "强袭者的链枷"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_StrikersFlail.png",
       "upstreamApiName": "DA_StrikersFlail",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 16578,
-      "sha256": "0d619c41da04f72ded9a70fc8f97a913ebbc331211128392016763f5208aba2d"
+      "bytes": 34087,
+      "sha256": "413bc3a698a21e794d16f1bfae18ac042fa65f4d160e375e10421a1bf77ba4f0"
     },
     "moba-item:deathblade": {
-      "file": "moba-item-deathblade.png",
+      "file": "ddragon-DA_Deathblade.png",
       "displayNames": [
         "死亡之刃"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_Deathblade.png",
       "upstreamApiName": "DA_Deathblade",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 13584,
-      "sha256": "221c87dd7d134e7b19d40283b7be225e27c4a86f9e74786f501b51803012eb2d"
+      "bytes": 18383,
+      "sha256": "22673c228941eef78df3e8de6683eb8de518f82c996539e7a853b3f411c166d0"
     },
     "moba-champion:scuttlecrab": {
-      "file": "moba-champion-scuttlecrab.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "峡谷迅捷蟹"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_scuttlecrab/skins/base/images/t_18_scuttlecrab_teamplannersplash.png",
-      "upstreamApiName": "DA_Scuttlecrab18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 90175,
-      "sha256": "013d4ce5be53385d5790217dd8503a59f28c98f3b55ce6d999c53705f668496a"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-champion:cinderling": {
-      "file": "moba-champion-cinderling.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "Cinderling（小红）",
         "炽焰幼龙"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_cinderling/skins/base/images/t_18_cinderling_teamplannersplash.png",
-      "upstreamApiName": "DA_Cinderling18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 81866,
-      "sha256": "792ac0ed3d0d2bddb6e4c1e51291e0a23bdaa48a27241bc07cade1b2f51daf30"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "tencent-champion:100306": {
-      "file": "tencent-champion-100306.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "苍蓝哨戒",
         "苍蓝哨戒（Pebbles）"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_sentry/skins/base/images/t_18_sentry_teamplannersplash.png",
-      "upstreamApiName": "DA_18_Sentry",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 56078,
-      "sha256": "da50a7bd13915e57c33c952143a732f8131e8b3d5346f7c65dabb3c6109156af"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-champion:aphelios": {
-      "file": "moba-champion-aphelios.png",
+      "file": "ddragon-DA_18_Aphelios.png",
       "displayNames": [
         "厄斐琉斯"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_aphelios/skins/base/images/tft18_aphelios_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Aphelios_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Aphelios",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 78867,
-      "sha256": "5920f0e4414515312b5942ade2d88ab5f497b6c4843547f82a28f8357be28476"
+      "bytes": 52214,
+      "sha256": "5de69278a84e532649fb36497c81a640ac123fe58116946dd3193200dffbc866"
     },
     "moba-champion:krug": {
-      "file": "moba-champion-krug.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "远古石甲虫"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_krug/skins/base/images/t_18_krug_teamplannersplash.png",
-      "upstreamApiName": "DA_Krug18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 54382,
-      "sha256": "4e920365d4c3b520db9dc87bf369317f3f33dc4ff66f1d848a8a9d21bb46b7bc"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-champion:murk-wolf": {
-      "file": "moba-champion-murk-wolf.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "暗影狼"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_murkwolf/skins/base/images/t_18_murkwolf_teamplannersplash.png",
-      "upstreamApiName": "DA_Murkwolf18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 75177,
-      "sha256": "755a11585334c4d84d959739107b5fd376d3c5c296dae28862600168fe0508b6"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-champion:reksai": {
-      "file": "moba-champion-reksai.png",
+      "file": "ddragon-DA_18_RekSai.png",
       "displayNames": [
         "雷克塞"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_reksai/skins/base/images/tft18_reksai_splash_tile_17.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_RekSai_splash_centered_17.TFT_Set18.png",
       "upstreamApiName": "DA_18_RekSai",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 67148,
-      "sha256": "a2ae7723ad44dd7544ebfd8190f280ab2b831742d8839504520328d56341bd0e"
+      "bytes": 54157,
+      "sha256": "6c384fb594e7bf7953f3bbc16e775144c55ce6214f9b9e179e13c8edd6b86ea0"
     },
     "tencent-champion:100327": {
-      "file": "tencent-champion-100327.png",
+      "file": "ddragon-DA_18_Cassiopeia.png",
       "displayNames": [
         "卡西奥佩娅"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_cassiopeia/skins/base/images/tft18_cassiopeia_splash_tile_18.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Cassiopeia_splash_centered_18.TFT_Set18.png",
       "upstreamApiName": "DA_18_Cassiopeia",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 81139,
-      "sha256": "f35e26f265488f2fe221cf4cfa1c88367523b5b827879ae21bb4dee728f6b963"
+      "bytes": 50343,
+      "sha256": "99096e0bb39927f2480d5632f1c031380f001bca4348096fe55fdaf023297079"
     },
     "tencent-champion:100343": {
-      "file": "tencent-champion-100343.png",
+      "file": "ddragon-DA_18_Lillia.png",
       "displayNames": [
         "莉莉娅"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_lillia/skins/base/images/tft18_lillia_splash_tile_28.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Lillia_splash_centered_28.TFT_Set18.png",
       "upstreamApiName": "DA_18_Lillia",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 94433,
-      "sha256": "dee683ad6935518b17a902cf564865a7cc1e94e95851c09ece75c0faf3678674"
+      "bytes": 54906,
+      "sha256": "f5cafcdb4e1f3e49336ab3a878b757d8ce5f348f168db1d87c95f18ba17a37ed"
     },
     "tencent-champion:100319": {
-      "file": "tencent-champion-100319.png",
+      "file": "ddragon-DA_18_Shen.png",
       "displayNames": [
         "慎"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_shen/skins/base/images/tft18_shen_splash_tile_16.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Shen_splash_centered_16.TFT_Set18.png",
       "upstreamApiName": "DA_18_Shen",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 95742,
-      "sha256": "61f34335adb3b09488a0da928d9e938707a5dbfc24e172c78b27028fb3b356be"
+      "bytes": 49903,
+      "sha256": "9c0d3c08d6bb8a4b0072264c29f9b6d46e05492af25264850046deffff1c1115"
     },
     "tencent-champion:100302": {
-      "file": "tencent-champion-100302.png",
+      "file": "ddragon-DA_18_Leona.png",
       "displayNames": [
         "蕾欧娜"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_leona/skins/base/images/tft18_leona_splash_tile_10.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Leona_splash_centered_10.TFT_Set18.png",
       "upstreamApiName": "DA_18_Leona",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 87499,
-      "sha256": "9490318f868a99c746d823c741791fa45aa12e8e318c2736ba3747b22c641b4d"
+      "bytes": 61436,
+      "sha256": "5464bc137573224704f36777aea5b5cb937c7ad1103236b7169c8e3c7760dbf9"
     },
     "tencent-champion:100303": {
-      "file": "tencent-champion-100303.png",
+      "file": "ddragon-DA_18_Ornn.png",
       "displayNames": [
         "奥恩"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_tile_2.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Ornn_splash_centered_2.TFT_Set18.png",
       "upstreamApiName": "DA_18_Ornn",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 80102,
-      "sha256": "4abfdd8a70a864b2eb6814fada1f4c8d8e9675bd9e316a02511c38e084052680"
+      "bytes": 52923,
+      "sha256": "9eefd2938a14b381903a4b47c12b88f676b263dcbfb0e4a473680db35a15c2e6"
     },
     "tencent-champion:100348": {
-      "file": "tencent-champion-100348.png",
+      "file": "ddragon-DA_18_Soraka.png",
       "displayNames": [
         "索拉卡"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_soraka/skins/base/images/tft18_soraka_splash_tile_53.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Soraka_splash_centered_53.TFT_Set18.png",
       "upstreamApiName": "DA_18_Soraka",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 96742,
-      "sha256": "a6a0f4fa614f06975c10f0ecfc6164fec60f470796e3adf34ca5447a58810ff9"
+      "bytes": 54186,
+      "sha256": "994b35a2d30f800e0ff640ff9ca56ff386ae06caba5b84312fb304a57a0b176a"
     },
     "tencent-item:92972": {
-      "file": "tencent-item-92972.png",
+      "file": "ddragon-DA_SpearOfShojin.png",
       "displayNames": [
         "朔极之矛"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_SpearOfShojin.png",
       "upstreamApiName": "DA_SpearOfShojin",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14277,
-      "sha256": "f6ad935fccebfc2b2933226be9481325e054af3fd606d7d4f78fab642c1b0198"
+      "bytes": 19128,
+      "sha256": "37d06611f4c35b1b9cb6d05011f8d6493c02b18ca1a2eae8e019a804e477602e"
     },
     "tencent-item:93139": {
-      "file": "tencent-item-93139.png",
+      "file": "ddragon-DA_HextechGunblade.png",
       "displayNames": [
         "海克斯科技枪刃"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_HextechGunblade.png",
       "upstreamApiName": "DA_HextechGunblade",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 16999,
-      "sha256": "2fba15afe6046253d7f75c7683c841c50b9991db86b974ee0cf0243a27d3c9ef"
+      "bytes": 21908,
+      "sha256": "dfaf25321548e701a88fbc4f26a874641b2df3c6fd33aa1f34420f3aa5414d25"
     },
     "tencent-item:93032": {
-      "file": "tencent-item-93032.png",
+      "file": "ddragon-DA_ArchangelsStaff.png",
       "displayNames": [
         "大天使之杖"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_ArchangelsStaff.png",
       "upstreamApiName": "DA_ArchangelsStaff",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15669,
-      "sha256": "8cdda41a8dcac28232ca447246418bf296eb1ecef3aa825ed45b5c800f7f0e92"
+      "bytes": 18634,
+      "sha256": "61fe585622a9986299e3993bec04a19b7b82b2a75aea359b920a1018410e7d1b"
     },
     "tencent-item:93334": {
-      "file": "tencent-item-93334.png",
+      "file": "ddragon-DA_WarmogsArmor.png",
       "displayNames": [
         "狂徒铠甲"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_WarmogsArmor.png",
       "upstreamApiName": "DA_WarmogsArmor",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 17116,
-      "sha256": "4c75e21ba9cf3bcdf7704e430e22eda8fc04e58378f863c3f039bb92834dbf45"
+      "bytes": 35184,
+      "sha256": "8e2a8155acceb554b10b1af2f844419c5bc3570bca129cf65b787a3adc34fb32"
     },
     "moba-champion:elise": {
-      "file": "moba-champion-elise.png",
+      "file": "ddragon-DA_18_Elise.png",
       "displayNames": [
         "伊莉丝"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_elise/skins/base/images/tft18_elise_splash_tile_24.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Elise_splash_centered_24.TFT_Set18.png",
       "upstreamApiName": "DA_18_Elise",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 80139,
-      "sha256": "ca009608319b1e399bbcf475365e8c124e0099ff6ee7d3e620e66abad3321745"
+      "bytes": 46372,
+      "sha256": "9795b30712794c032ac5df34be84b6e9b1fb4da13381dd332cf85d5e1fd9d3f7"
     },
     "moba-champion:caitlyn": {
-      "file": "moba-champion-caitlyn.png",
+      "file": "ddragon-DA_18_Caitlyn.png",
       "displayNames": [
         "凯特琳"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_caitlyn/skins/base/images/tft18_caitlyn_splash_tile_30.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Caitlyn_splash_centered_30.TFT_Set18.png",
       "upstreamApiName": "DA_18_Caitlyn",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 86349,
-      "sha256": "56d85a54b4bd7bb81a7436796f34bc23864af39d7287500f791c8ec704ec7f6d"
+      "bytes": 46253,
+      "sha256": "fd1bd798b384fafcf380845dfe9c8745ed690c2cd09f7b0bf36e0b20e7df008d"
     },
     "moba-champion:rakan": {
-      "file": "moba-champion-rakan.png",
+      "file": "ddragon-DA_18_Rakan.png",
       "displayNames": [
         "洛"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_rakan/skins/base/images/tft18_rakan_splash_tile_9.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Rakan_splash_centered_9.TFT_Set18.png",
       "upstreamApiName": "DA_18_Rakan",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 75782,
-      "sha256": "5dd432b8b869e6b202789075842541a1daca397a00c4c086055f4738e368130f"
+      "bytes": 48336,
+      "sha256": "b410b66b42ff51aca2db5fb7726e673d5949c994e35b4a8f2ff2576b4c868b80"
     },
     "moba-champion:veigar": {
-      "file": "moba-champion-veigar.png",
+      "file": "ddragon-DA_18_Veigar.png",
       "displayNames": [
         "维迦"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_veigar/skins/base/images/tft18_veigar_splash_tile_13.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Veigar_splash_centered_13.TFT_Set18.png",
       "upstreamApiName": "DA_18_Veigar",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 61162,
-      "sha256": "1faa221a32f8decd85ad0d10c19e2cb063e041cd955fa92a049ad31f11fbbe0f"
+      "bytes": 53661,
+      "sha256": "1e7f8498fee3a1a3fa2444e727d006938c3429a62eab604a3976513a2d9956ee"
     },
     "moba-champion:alune": {
-      "file": "moba-champion-alune.png",
+      "file": "ddragon-DA_18_Alune.png",
       "displayNames": [
         "拉露恩"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_alune/skins/base/images/tft18_alune_splash_tile_15.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Alune_splash_centered_15.TFT_Set18.png",
       "upstreamApiName": "DA_18_Alune",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 76559,
-      "sha256": "c45a09eeba8f6d1c63bee059a91704f345b1eb9cf151cd8f85fb7515dfba5460"
+      "bytes": 54158,
+      "sha256": "957a9956f98c3e985a657e0fe6b4f23689f478bbb75c2cd312d9d94fc5f91a1d"
     },
     "moba-champion:soraka": {
-      "file": "moba-champion-soraka.png",
+      "file": "ddragon-DA_18_Soraka.png",
       "displayNames": [
         "索拉卡"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_soraka/skins/base/images/tft18_soraka_splash_tile_53.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Soraka_splash_centered_53.TFT_Set18.png",
       "upstreamApiName": "DA_18_Soraka",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 72384,
-      "sha256": "9faafec8c1f48314f9641a8d56a9776d8f9758ae9676418d50cf512f6389eb3c"
+      "bytes": 54186,
+      "sha256": "994b35a2d30f800e0ff640ff9ca56ff386ae06caba5b84312fb304a57a0b176a"
     },
     "tencent-champion:100314": {
-      "file": "tencent-champion-100314.png",
+      "file": "ddragon-DA_18_Caitlyn.png",
       "displayNames": [
         "凯特琳"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_caitlyn/skins/base/images/tft18_caitlyn_splash_tile_30.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Caitlyn_splash_centered_30.TFT_Set18.png",
       "upstreamApiName": "DA_18_Caitlyn",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 64699,
-      "sha256": "725d87747bb03b2e22b4deaf90db557a6feb6bb10b3e31e7ca8de39bf793d604"
+      "bytes": 46253,
+      "sha256": "fd1bd798b384fafcf380845dfe9c8745ed690c2cd09f7b0bf36e0b20e7df008d"
     },
     "tencent-champion:100315": {
-      "file": "tencent-champion-100315.png",
+      "file": "ddragon-DA_18_Elise.png",
       "displayNames": [
         "伊莉丝"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_elise/skins/base/images/tft18_elise_splash_tile_24.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Elise_splash_centered_24.TFT_Set18.png",
       "upstreamApiName": "DA_18_Elise",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 60990,
-      "sha256": "303be0904533bb90082dfb7991e7af8bb07d97de21e553332f0ea070fd1820aa"
+      "bytes": 46372,
+      "sha256": "9795b30712794c032ac5df34be84b6e9b1fb4da13381dd332cf85d5e1fd9d3f7"
     },
     "tencent-champion:100372": {
-      "file": "tencent-champion-100372.png",
+      "file": "ddragon-DA_Taric18.png",
       "displayNames": [
         "塔里克"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_taric/skins/base/images/tft18_taric_splash_tile_1.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Taric_splash_centered_1.TFT_Set18.png",
       "upstreamApiName": "DA_Taric18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 89508,
-      "sha256": "c9af77017794d0a7dabe755837f7bd89fad0d33b99ab025c256764ca3ac2cea8"
+      "bytes": 53422,
+      "sha256": "392a7a1f91a065d906e87f3044916661de477e1f55eafdd08acf3b47f8238bb5"
     },
     "tencent-champion:100353": {
-      "file": "tencent-champion-100353.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "苍蓝魔像",
         "苍蓝雕纹魔像"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/ux/tft/championsplashes/tft_minion_mobile.png",
-      "upstreamApiName": "TFT16_PVE_BlueGolem",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 329202,
-      "sha256": "bce422c9e8214989106c6007de4d8fe4d1f9d89347e03575b4395b9e951c7562"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "tencent-champion:100334": {
-      "file": "tencent-champion-100334.png",
+      "file": "ddragon-DA_18_Tristana.png",
       "displayNames": [
         "崔丝塔娜"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_tristana/skins/base/images/tft18_tristana_splash_tile_61.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Tristana_splash_centered_61.TFT_Set18.png",
       "upstreamApiName": "DA_18_Tristana",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 70996,
-      "sha256": "0dc62bd71adeb613deb3b7feafe491b4c06ee29b6338ff7b614b7403e0f99b37"
+      "bytes": 57265,
+      "sha256": "7b70e00e0ddf8ce0dc0944bd7ef43822d836dfd590f955f41db281c5a3650f0f"
     },
     "tencent-champion:100304": {
-      "file": "tencent-champion-100304.png",
+      "file": "ddragon-DA_18_Rakan.png",
       "displayNames": [
         "洛"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_rakan/skins/base/images/tft18_rakan_splash_tile_9.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Rakan_splash_centered_9.TFT_Set18.png",
       "upstreamApiName": "DA_18_Rakan",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 58218,
-      "sha256": "ddb9e71a7e5b87d27f32886f59b84beeca6cfc4a571cf389e0a7bf367c84f5a1"
+      "bytes": 48336,
+      "sha256": "b410b66b42ff51aca2db5fb7726e673d5949c994e35b4a8f2ff2576b4c868b80"
     },
     "tencent-item:93176": {
-      "file": "tencent-item-93176.png",
+      "file": "ddragon-DA_KrakensFury.png",
       "displayNames": [
         "海妖之怒"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_KrakensFury.png",
       "upstreamApiName": "DA_KrakensFury",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 5216,
-      "sha256": "f311ac1c9819e879c541c37444e12f5ae452e59a265c9ddf3f4d78a85430f11c"
+      "bytes": 10331,
+      "sha256": "a5b2604760797ec1225fbc48f374ca1fee875040b20dd67ab78b8491b1aeb91f"
     },
     "tencent-item:93074": {
-      "file": "tencent-item-93074.png",
+      "file": "ddragon-DA_GiantSlayer.png",
       "displayNames": [
         "巨人杀手"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_GiantSlayer.png",
       "upstreamApiName": "DA_GiantSlayer",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15196,
-      "sha256": "05760e500c46ea8918b3607ef89d0961f48bc76409479d88d1bb363da451d87c"
+      "bytes": 19621,
+      "sha256": "7c8a10b215c1abb99d8c89af4e9e95cbe72f25ac0bad7a2fb45f9af9614f529d"
     },
     "moba-champion:vi": {
-      "file": "moba-champion-vi.png",
+      "file": "ddragon-DA_Vi18.png",
       "displayNames": [
         "蔚"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_vi/skins/base/images/tft18_vi_splash_tile_39.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Vi_splash_centered_39.TFT_Set18.png",
       "upstreamApiName": "DA_Vi18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 64884,
-      "sha256": "4ef090a4b6cc1ae799b5938bf3fd7cc95b616cd04d353a1590eb70e1136aec93"
+      "bytes": 56345,
+      "sha256": "4dba1a71e5a9e48be0bcd2d315846cbd4ce2dcb8f2f971656ddde37b1e3954e8"
     },
     "tencent-champion:100324": {
-      "file": "tencent-champion-100324.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "暗影狼"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_murkwolf/skins/base/images/t_18_murkwolf_teamplannersplash.png",
-      "upstreamApiName": "DA_Murkwolf18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 51931,
-      "sha256": "f3b8a36b2177081b2f69e76a88e01a6eafaebc67aad2c6c4fea7b57b4cf06340"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "tencent-champion:100325": {
-      "file": "tencent-champion-100325.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "峡谷迅捷蟹"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_scuttlecrab/skins/base/images/t_18_scuttlecrab_teamplannersplash.png",
-      "upstreamApiName": "DA_Scuttlecrab18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 66116,
-      "sha256": "660adedd01a88317d63def6d5fd4ccd04f14834a5443bba248e7c7ff102453ad"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-item:rabadons-deathcap": {
-      "file": "moba-item-rabadons-deathcap.png",
+      "file": "ddragon-DA_RabadonsDeathcap.png",
       "displayNames": [
         "灭世者的死亡之帽"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_RabadonsDeathcap.png",
       "upstreamApiName": "DA_RabadonsDeathcap",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 16265,
-      "sha256": "d9fbe80e47b464996813541ae0ffb88eb138b46394bac9041266613a4885457d"
+      "bytes": 21023,
+      "sha256": "b7b228e378becef6ea87d5700fb753a852ff9af8edb4fe80ba11e507de52008b"
     },
     "moba-item:sunfire-cape": {
-      "file": "moba-item-sunfire-cape.png",
+      "file": "ddragon-DA_SunfireCape.png",
       "displayNames": [
         "日炎斗篷"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_SunfireCape.png",
       "upstreamApiName": "DA_SunfireCape",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 17021,
-      "sha256": "161ae1a736af0cdb0b9dfbb67ace082778e5e7d3ad84cfaec2ddfb73a3254a58"
+      "bytes": 21828,
+      "sha256": "483d021460f5335520f8387d45917a0d41060d51b4b10532646120af8d697d5c"
     },
     "moba-champion:kogmaw": {
-      "file": "moba-champion-kogmaw.png",
+      "file": "ddragon-DA_KogMaw18_AD.png",
       "displayNames": [
         "克格莫"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_kogmaw/skins/base/images/tft18_kogmaw_splash_tile_3.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_KogMaw_splash_centered_3.TFT_Set18.png",
       "upstreamApiName": "DA_KogMaw18_AD",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 64554,
-      "sha256": "0240447f04556ea932c0ee9ac2a463f51bcd600934a6c463714e34829ab37afa"
+      "bytes": 44262,
+      "sha256": "9bc2f19a18f0bd2847dd8effd0ed7d113d3bf673b1031c694cb3a0784267dade"
     },
     "tencent-champion:100356": {
-      "file": "tencent-champion-100356.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "远古巨龙"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_elderdragon/skins/base/images/t_18_elderdragon_teamplannersplash.png",
-      "upstreamApiName": "DA_18_ElderDragon",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 65167,
-      "sha256": "d7aa1f05b14fde6872ec2bdd1591399dbb46fa11a744bfcfdeb9ee228a56f33a"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-champion:taric": {
-      "file": "moba-champion-taric.png",
+      "file": "ddragon-DA_Taric18.png",
       "displayNames": [
         "塔里克"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_taric/skins/base/images/tft18_taric_splash_tile_1.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Taric_splash_centered_1.TFT_Set18.png",
       "upstreamApiName": "DA_Taric18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 65297,
-      "sha256": "c70692497d726d487041e23aaaf37feb39aa1bc19883af9588bc6de81dd26c69"
+      "bytes": 53422,
+      "sha256": "392a7a1f91a065d906e87f3044916661de477e1f55eafdd08acf3b47f8238bb5"
     },
     "moba-champion:ahri": {
-      "file": "moba-champion-ahri.png",
+      "file": "ddragon-DA_18_Ahri.png",
       "displayNames": [
         "阿狸"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_ahri/skins/base/images/tft18_ahri_splash_tile_27.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Ahri_splash_centered_27.TFT_Set18.png",
       "upstreamApiName": "DA_18_Ahri",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 85841,
-      "sha256": "b00c25e05e9996f0e675c805ba6cf2c32c25909b244e67c37dba27252576c0db"
+      "bytes": 50109,
+      "sha256": "007431e1e12dd2f601f2c1fcb80d2f6dfce444437099df07cef7f1f82feed831"
     },
     "moba-champion:morgana": {
-      "file": "moba-champion-morgana.png",
+      "file": "ddragon-DA_18_Morgana.png",
       "displayNames": [
         "莫甘娜"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_morgana/skins/base/images/tft18_morgana_splash_tile_26.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Morgana_splash_centered_26.TFT_Set18.png",
       "upstreamApiName": "DA_18_Morgana",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 77048,
-      "sha256": "aeedf5a918ece8b83216c69890635e3fdff7ef1e791a6b3166d5038042c86b57"
+      "bytes": 48742,
+      "sha256": "eb3c4758086d7cb9876623dd887364b93871504a38263b8d824256ea27611882"
     },
     "moba-champion:sett": {
-      "file": "moba-champion-sett.png",
+      "file": "ddragon-DA_18_Sett.png",
       "displayNames": [
         "瑟提"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_sett/skins/base/images/tft18_sett_splash_tile_38.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Sett_splash_centered_38.TFT_Set18.png",
       "upstreamApiName": "DA_18_Sett",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 61378,
-      "sha256": "a96c4df1bad3d40fbaba12363f6daeac50d033902d75089025013f7c2c527d8f"
+      "bytes": 55940,
+      "sha256": "6a773fbb5ac90f97d85a58179b1bd82e9e7ef6a5429eb19cabc0a028132044e3"
     },
     "moba-item:steadfast-hammer": {
-      "file": "moba-item-steadfast-hammer.png",
+      "file": "ddragon-DA_SteadfastHeart.png",
       "displayNames": [
         "坚定之心"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_SteadfastHeart.png",
       "upstreamApiName": "DA_SteadfastHeart",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 18829,
-      "sha256": "421fb705d2de61e27359b5d8092a30372f7e507a5631242915471704b263df81"
+      "bytes": 34696,
+      "sha256": "21d6dd342afed4c2d6e3f854295c95941293cc301c29110c0eb69fb087936abd"
     },
     "moba-item:morellonomicon": {
-      "file": "moba-item-morellonomicon.png",
+      "file": "ddragon-DA_Morellonomicon.png",
       "displayNames": [
         "莫雷洛秘典"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_Morellonomicon.png",
       "upstreamApiName": "DA_Morellonomicon",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 17010,
-      "sha256": "97c814670ac04582576530b081fc9063989eeb4f81b6364a3e4bf461232d646c"
+      "bytes": 22568,
+      "sha256": "f69be21e68d35d86d46c0595c93025514410e508da805688d6fbc6608de51e0a"
     },
     "moba-item:voidstaff": {
-      "file": "moba-item-voidstaff.png",
+      "file": "ddragon-DA_VoidStaff.png",
       "displayNames": [
         "虚空之杖"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_voidstaff.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_VoidStaff.png",
       "upstreamApiName": "DA_VoidStaff",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15480,
-      "sha256": "65196918b1461abcd50dcd6c6623210efd859caf229b1b58ae52d3d6070fffa1"
+      "bytes": 24242,
+      "sha256": "472c2b5e1bb4486e69d92cf82cd026a35191320395f16d96d8b2d5b71202a423"
     },
     "moba-item:adaptive-helm": {
-      "file": "moba-item-adaptive-helm.png",
+      "file": "ddragon-DA_AdaptiveHelm.png",
       "displayNames": [
         "适应性头盔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_AdaptiveHelm.png",
       "upstreamApiName": "DA_AdaptiveHelm",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15874,
-      "sha256": "5f8d2b068278079715e1257258438d8df27cce68d473c818e5ffe5136eb241f0"
+      "bytes": 28959,
+      "sha256": "f1f685853a174004512d183277397a932ad44de73d708f5e214d4b36e47b3bd9"
     },
     "moba-champion:yunara": {
-      "file": "moba-champion-yunara.png",
+      "file": "ddragon-DA_18_Yunara.png",
       "displayNames": [
         "芸阿娜"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_yunara/skins/base/images/tft18_yunara_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Yunara_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Yunara",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 99979,
-      "sha256": "4a381b995715f6b2e6f36781ee0c5b1972b3e1f424ba39ecaa95a711b44b5c33"
+      "bytes": 55750,
+      "sha256": "a1c4ceca3accbab7236244e1e2753e50bea92cbc59c452b21edb748dbf7ca410"
     },
     "moba-champion:cassiopeia": {
-      "file": "moba-champion-cassiopeia.png",
+      "file": "ddragon-DA_18_Cassiopeia.png",
       "displayNames": [
         "卡西奥佩娅"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_cassiopeia/skins/base/images/tft18_cassiopeia_splash_tile_18.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Cassiopeia_splash_centered_18.TFT_Set18.png",
       "upstreamApiName": "DA_18_Cassiopeia",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 57937,
-      "sha256": "b63a3d9f33ddd286d6612660a81f02c1da6ed8034d03971a8d2d54c2af7728f9"
+      "bytes": 50343,
+      "sha256": "99096e0bb39927f2480d5632f1c031380f001bca4348096fe55fdaf023297079"
     },
     "moba-champion:azir": {
-      "file": "moba-champion-azir.png",
+      "file": "ddragon-DA_18_Azir.png",
       "displayNames": [
         "阿兹尔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_azir/skins/base/images/tft18_azir_splash_tile_5.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Azir_splash_centered_5.TFT_Set18.png",
       "upstreamApiName": "DA_18_Azir",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 90280,
-      "sha256": "cc22eb524c2e4b241a99085f6a9653aeec36d8cd2dc096ab44c6ec73c97b5674"
+      "bytes": 54631,
+      "sha256": "46a8fa5bd6ad2d71cd20d0063ef5174cbbafbc74e17ac80dc057fc30a87b51a7"
     },
     "moba-champion:fiddlesticks": {
-      "file": "moba-champion-fiddlesticks.png",
+      "file": "ddragon-DA_Fiddlesticks18.png",
       "displayNames": [
         "费德提克"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_fiddlesticks/skins/base/images/tft18_fiddlesticks_splash_tile_46.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Fiddlesticks_splash_centered_46.TFT_Set18.png",
       "upstreamApiName": "DA_Fiddlesticks18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 62755,
-      "sha256": "f1ad4278a505aa9b98f99435e3fe07da9d43cadce993115d4f1b85772290b5bb"
+      "bytes": 50105,
+      "sha256": "637368e9d735f00bbfc4ecb318fe17847c0bfc8c68e0d6d2917a54487c14db59"
     },
     "moba-champion:zyra": {
-      "file": "moba-champion-zyra.png",
+      "file": "ddragon-DA_18_Zyra.png",
       "displayNames": [
         "婕拉"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_zyra/skins/base/images/tft18_zyra_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Zyra_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Zyra",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 85638,
-      "sha256": "bed10503130b6923234d1d743a7aff372ea9524503bcd3d90a010e06172f87a3"
+      "bytes": 51589,
+      "sha256": "23667e75f117e9fa1dddf366e44bbd23669eb84074d02726cedd7d9445f9972b"
     },
     "moba-champion:maokai": {
-      "file": "moba-champion-maokai.png",
+      "file": "ddragon-DA_18_Maokai.png",
       "displayNames": [
         "茂凯"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_maokai/skins/base/images/tft18_maokai_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Maokai_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Maokai",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 73573,
-      "sha256": "3a70ecbab3bfd5114a9770b664d1dc7951f8a5338ee0099148018153287daa2b"
+      "bytes": 51935,
+      "sha256": "54f76291b76cc4cd9e88b70db00581bcdf16edb4b2b48aca05c395ea24d58d4d"
     },
     "moba-champion:amumu": {
-      "file": "moba-champion-amumu.png",
+      "file": "ddragon-DA_Amumu18.png",
       "displayNames": [
         "阿木木"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_amumu/skins/base/images/tft18_amumu_splash_tile_17.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Amumu_splash_centered_17.TFT_Set18.png",
       "upstreamApiName": "DA_Amumu18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 86554,
-      "sha256": "96f73876b7861dbcc1ced68c5adae401edad00856a8d3228e81d2d41f0ec0dfc"
+      "bytes": 52940,
+      "sha256": "2652de432811a6e7d6cd1c9ec321d1e7707322891d4e0e99f4c00fa1dd7cf5e3"
     },
     "moba-item:archangels-staff": {
-      "file": "moba-item-archangels-staff.png",
+      "file": "ddragon-DA_ArchangelsStaff.png",
       "displayNames": [
         "大天使之杖"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_ArchangelsStaff.png",
       "upstreamApiName": "DA_ArchangelsStaff",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15669,
-      "sha256": "8cdda41a8dcac28232ca447246418bf296eb1ecef3aa825ed45b5c800f7f0e92"
+      "bytes": 18634,
+      "sha256": "61fe585622a9986299e3993bec04a19b7b82b2a75aea359b920a1018410e7d1b"
     },
     "moba-champion:leblanc": {
-      "file": "moba-champion-leblanc.png",
+      "file": "ddragon-DA_18_LeBlanc.png",
       "displayNames": [
         "乐芙兰"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_leblanc/skins/base/images/tft18_leblanc_splash_tile_5.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Leblanc_splash_centered_5.TFT_Set18.png",
       "upstreamApiName": "DA_18_LeBlanc",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 78622,
-      "sha256": "c197f7e5ce5245e6222a29649ff02930cca6fa9263fd156c62364905577ff904"
+      "bytes": 50548,
+      "sha256": "f5640a205c8dc181190119d6ca02671c1118eebf7db5b509eb98016e4c0dba2b"
     },
     "moba-champion:xayah": {
-      "file": "moba-champion-xayah.png",
+      "file": "ddragon-DA_18_Xayah.png",
       "displayNames": [
         "霞"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_xayah/skins/base/images/tft18_xayah_splash_tile_8.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Xayah_splash_centered_8.TFT_Set18.png",
       "upstreamApiName": "DA_18_Xayah",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 74927,
-      "sha256": "d7f37313fda82c52dbec08ef825c3ee0a26a1b7f21783a183dd3aa0065a01edb"
+      "bytes": 50145,
+      "sha256": "296e6a0f7ac96cc561f2aa72f9a475e9cab71ef53eaf8289bafa381388eedf9d"
     },
     "moba-champion:ornn": {
-      "file": "moba-champion-ornn.png",
+      "file": "ddragon-DA_18_Ornn.png",
       "displayNames": [
         "奥恩"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_tile_2.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Ornn_splash_centered_2.TFT_Set18.png",
       "upstreamApiName": "DA_18_Ornn",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 60107,
-      "sha256": "db5fb530a08ab77a91744fa5b071d15fbfe669471e993a3bcffd88c4826af93f"
+      "bytes": 52923,
+      "sha256": "9eefd2938a14b381903a4b47c12b88f676b263dcbfb0e4a473680db35a15c2e6"
     },
     "moba-champion:brambleback": {
-      "file": "moba-champion-brambleback.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "绯红印记树怪",
         "Brambleback（红怪）"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_brambleback/skins/base/images/t_18_brambleback_teamplannersplash.png",
-      "upstreamApiName": "DA_Brambleback18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 69906,
-      "sha256": "b87ffb5ae7d0bcfb11b9a20003fa03c98502c271b84920e524fae16cd1d7dca2"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-champion:diana": {
-      "file": "moba-champion-diana.png",
+      "file": "ddragon-DA_18_Diana.png",
       "displayNames": [
         "黛安娜"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_diana/skins/base/images/tft18_diana_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Diana_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Diana",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 81769,
-      "sha256": "b1165ff1df585253b67a3e91c9cbe4c2de004933255c95aac653f664d56ba3be"
+      "bytes": 47359,
+      "sha256": "c4b02e6c6e9d359ea68253cbb49b13f0ee9ecc464d1e408a3a2e5cbde43dfdba"
     },
     "moba-champion:hecarim": {
-      "file": "moba-champion-hecarim.png",
+      "file": "ddragon-DA_18_Hecarim.png",
       "displayNames": [
         "赫卡里姆"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_hecarim/skins/base/images/tft18_hecarim_splash_tile_5.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Hecarim_splash_centered_5.TFT_Set18.png",
       "upstreamApiName": "DA_18_Hecarim",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 91091,
-      "sha256": "98a1da79bf9fdfc055b01acc254c18c01c2fb066ed53bef48f5d95155f14ff85"
+      "bytes": 52106,
+      "sha256": "797323f9668e8c82a06a46882cb897815ac34d6eb257009d0a9da399f5615f93"
     },
     "moba-champion:crimson-raptor": {
-      "file": "moba-champion-crimson-raptor.png",
+      "file": "asset-pending.svg",
       "displayNames": [
         "深红锋喙鸟"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_raptor/skins/base/images/t_18_crimsonraptor_teamplannersplash.png",
-      "upstreamApiName": "DA_CrimsonRaptor18",
-      "publishStatus": "fan-project-policy-review",
-      "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 81397,
-      "sha256": "20add3fa22b5ddd99d8c6c5c494c46d950e64e04016aab783a685fda4bb3deeb"
+      "provider": "project-placeholder",
+      "publishStatus": "placeholder-safe",
+      "note": "No matching active-set asset was listed in Riot Data Dragon 16.17.1.",
+      "sha256": "3de84610f26b91e8d3458be99d18b14d49a0780f6431a6b83c3dc4c353b87270"
     },
     "moba-item:krakensfury": {
-      "file": "moba-item-krakensfury.png",
+      "file": "ddragon-DA_KrakensFury.png",
       "displayNames": [
         "海妖之怒"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_KrakensFury.png",
       "upstreamApiName": "DA_KrakensFury",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 5216,
-      "sha256": "f311ac1c9819e879c541c37444e12f5ae452e59a265c9ddf3f4d78a85430f11c"
+      "bytes": 10331,
+      "sha256": "a5b2604760797ec1225fbc48f374ca1fee875040b20dd67ab78b8491b1aeb91f"
     },
     "moba-item:guinsoos-rageblade": {
-      "file": "moba-item-guinsoos-rageblade.png",
+      "file": "ddragon-DA_GuinsoosRageblade.png",
       "displayNames": [
         "鬼索的狂暴之刃"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_GuinsoosRageblade.png",
       "upstreamApiName": "DA_GuinsoosRageblade",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15746,
-      "sha256": "70a4bbe26daddd0fb7be5da1136a1c8ee935403d6fab493c53cc78a5239d17cc"
+      "bytes": 29291,
+      "sha256": "d65911d38f9b75521c06d0e6638fb954c09afe31b834262020fe4598270653fd"
     },
     "moba-item:fimbulwinter": {
-      "file": "moba-item-fimbulwinter.png",
+      "file": "ddragon-DA_ProtectorsVow.png",
       "displayNames": [
         "圣盾使的誓约"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_ProtectorsVow.png",
       "upstreamApiName": "DA_ProtectorsVow",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15308,
-      "sha256": "de2a228804d87f258502364b03b05040f6c8e3ea47a4e420058548698eae70f7"
+      "bytes": 20634,
+      "sha256": "43d2c1cc47838514668e222bef3b3f1a1138d0a59bf5044210e5f710389d409a"
     },
     "moba-item:evenshroud": {
-      "file": "moba-item-evenshroud.png",
+      "file": "ddragon-DA_Evenshroud.png",
       "displayNames": [
         "薄暮法袍"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_Evenshroud.png",
       "upstreamApiName": "DA_Evenshroud",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15260,
-      "sha256": "9cc0b07065ec4cf97b377764b28356bc2dcd32da819c1106084ca9030f0f310f"
+      "bytes": 26324,
+      "sha256": "9bfdec074a51d5441739c7191d7d19f69a270bfb3f2f6eee324dde8c83a7f7bf"
     },
     "moba-champion:sivir": {
-      "file": "moba-champion-sivir.png",
+      "file": "ddragon-DA_18_Sivir.png",
       "displayNames": [
         "希维尔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_tile_61.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Sivir_splash_centered_61.TFT_Set18.png",
       "upstreamApiName": "DA_18_Sivir",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 72173,
-      "sha256": "728cb29eac3957b31723aae3438f0218a26208c3c3aa8cd0f5c03380da61caa9"
+      "bytes": 56381,
+      "sha256": "4688ba11f601f16ce3a71bcaba953baefcaeb1031b8f4d9a18dba8bc01a35f21"
     },
     "tencent-champion:100368": {
-      "file": "tencent-champion-100368.png",
+      "file": "ddragon-DA_Draven18.png",
       "displayNames": [
         "德莱文"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_draven/skins/base/images/tft18_draven_splash_tile_5.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Draven_splash_centered_5.TFT_Set18.png",
       "upstreamApiName": "DA_Draven18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 81278,
-      "sha256": "5c074211e47d54c879403714fbb25c388a963f5fec03db7066be04eddbb9bab6"
+      "bytes": 57308,
+      "sha256": "0a18e0d6c436863c7667d81dc780765fcc461fce3cf7ce6a17198d759fd6b93e"
     },
     "tencent-champion:100367": {
-      "file": "tencent-champion-100367.png",
+      "file": "ddragon-DA_18_Maokai.png",
       "displayNames": [
         "茂凯"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_maokai/skins/base/images/tft18_maokai_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Maokai_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Maokai",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 55187,
-      "sha256": "fd88efe913593b909dd4f681eb8620ee8e84c08442d61585902c0d68fc5d9365"
+      "bytes": 51935,
+      "sha256": "54f76291b76cc4cd9e88b70db00581bcdf16edb4b2b48aca05c395ea24d58d4d"
     },
     "moba-champion:ezreal": {
-      "file": "moba-champion-ezreal.png",
+      "file": "ddragon-DA_18_Ezreal.png",
       "displayNames": [
         "伊泽瑞尔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_ezreal/skins/base/images/tft18_ezreal_splash_tile_1.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Ezreal_splash_centered_1.TFT_Set18.png",
       "upstreamApiName": "DA_18_Ezreal",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 85953,
-      "sha256": "47f945b928f64c8a5094ea8aeef9c5abc81fa1fea08b0b331dbe9807dad78bc3"
+      "bytes": 54698,
+      "sha256": "1d943eb79d691deae496f63f05c7b8d870efd9edad5f62d45354135c356d0593"
     },
     "tencent-champion:100359": {
-      "file": "tencent-champion-100359.png",
+      "file": "ddragon-DA_18_Kennen.png",
       "displayNames": [
         "凯南"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_kennen/skins/base/images/tft18_kennen_splash_tile_8.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Kennen_splash_centered_8.TFT_Set18.png",
       "upstreamApiName": "DA_18_Kennen",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 66469,
-      "sha256": "97d4967c1aaf0e17f6ea61a7c485da8178dff04f5e0fa8b5cfb705ff4f10a490"
+      "bytes": 47758,
+      "sha256": "e9e294df7a583c8a8558f0022f2d9904513fd4f107ff2054ee0541dc4577f3f8"
     },
     "tencent-champion:100358": {
-      "file": "tencent-champion-100358.png",
+      "file": "ddragon-DA_18_Ivern.png",
       "displayNames": [
         "艾翁"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_ivern/skins/base/images/tft18_ivern_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Ivern_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Ivern",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 56220,
-      "sha256": "4b939afab9400159e169de33e688985da27bf9a755b324066af424f0de1bb903"
+      "bytes": 53551,
+      "sha256": "c79bd2147661e6f58e0972bcd9b2fe376638b4736e214ecaa67d20744a4b4c0b"
     },
     "tencent-champion:100350": {
-      "file": "tencent-champion-100350.png",
+      "file": "ddragon-DA_Amumu18.png",
       "displayNames": [
         "阿木木"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_amumu/skins/base/images/tft18_amumu_splash_tile_17.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Amumu_splash_centered_17.TFT_Set18.png",
       "upstreamApiName": "DA_Amumu18",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 65907,
-      "sha256": "73ed79383a6b4933619314271496397583fe0332110c4f88dcdae0128fda6b09"
+      "bytes": 52940,
+      "sha256": "2652de432811a6e7d6cd1c9ec321d1e7707322891d4e0e99f4c00fa1dd7cf5e3"
     },
     "tencent-champion:100313": {
-      "file": "tencent-champion-100313.png",
+      "file": "ddragon-DA_18_Alistar.png",
       "displayNames": [
         "阿利斯塔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_alistar/skins/base/images/tft18_alistar_splash_tile_40.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Alistar_splash_centered_40.TFT_Set18.png",
       "upstreamApiName": "DA_18_Alistar",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 58621,
-      "sha256": "e08045c38636f418d56afc260c468503da20299c55195b8ea0c118cb08b7d107"
+      "bytes": 47652,
+      "sha256": "7962a5478e563083a346c8e47f751c33d4606001f57ce640ca58d8a1787085ce"
     },
     "tencent-champion:100309": {
-      "file": "tencent-champion-100309.png",
+      "file": "ddragon-DA_18_Xayah.png",
       "displayNames": [
         "霞"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_xayah/skins/base/images/tft18_xayah_splash_tile_8.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Xayah_splash_centered_8.TFT_Set18.png",
       "upstreamApiName": "DA_18_Xayah",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 57396,
-      "sha256": "314675c6c5180103acb0e157ccc4986ae3037d431ce365bf562d8329e74d821a"
+      "bytes": 50145,
+      "sha256": "296e6a0f7ac96cc561f2aa72f9a475e9cab71ef53eaf8289bafa381388eedf9d"
     },
     "tencent-champion:100341": {
-      "file": "tencent-champion-100341.png",
+      "file": "ddragon-DA_18_Aphelios.png",
       "displayNames": [
         "厄斐琉斯"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_aphelios/skins/base/images/tft18_aphelios_splash_tile_0.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Aphelios_splash_centered_0.TFT_Set18.png",
       "upstreamApiName": "DA_18_Aphelios",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 60058,
-      "sha256": "9ef21d965f081785024df4ae1a33a6020954bfc97ba2b7bdc423c353c7697378"
+      "bytes": 52214,
+      "sha256": "5de69278a84e532649fb36497c81a640ac123fe58116946dd3193200dffbc866"
     },
     "tencent-champion:100361": {
-      "file": "tencent-champion-100361.png",
+      "file": "ddragon-DA_Lux18_Base.png",
       "displayNames": [
         "永森拉克丝"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_elderwood_teamplanner.png",
-      "upstreamApiName": "DA_18_Lux_Elderwood",
-      "publishStatus": "fan-project-policy-review",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Lux_splash_centered_7.TFT_Set18.png",
+      "upstreamApiName": "DA_Lux18_Base",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 77578,
-      "sha256": "1afa595e2550fdeb84f30b91669a01dbeef881180bd1f6c400466016f34c5370"
+      "bytes": 59044,
+      "sha256": "313492fe6b8ca77b9a388470aa7e5d98fa4a9fba9ea0ab3b7645bb647f8d32e5"
     },
     "tencent-champion:100354": {
-      "file": "tencent-champion-100354.png",
+      "file": "ddragon-DA_18_Alune.png",
       "displayNames": [
         "拉露恩"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_alune/skins/base/images/tft18_alune_splash_tile_15.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Alune_splash_centered_15.TFT_Set18.png",
       "upstreamApiName": "DA_18_Alune",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 57242,
-      "sha256": "4150b80fae49ece4b5f2cb6f9ac14bb16d4a6ffd0fa8e7c025010b1cebe2a671"
+      "bytes": 54158,
+      "sha256": "957a9956f98c3e985a657e0fe6b4f23689f478bbb75c2cd312d9d94fc5f91a1d"
     },
     "tencent-champion:100317": {
-      "file": "tencent-champion-100317.png",
+      "file": "ddragon-DA_18_LeBlanc.png",
       "displayNames": [
         "乐芙兰"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_leblanc/skins/base/images/tft18_leblanc_splash_tile_5.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Leblanc_splash_centered_5.TFT_Set18.png",
       "upstreamApiName": "DA_18_LeBlanc",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 61059,
-      "sha256": "66d70a73aec55eab2562eb2b95ae31d82f659f8475b18bfc919e62a4cdd08410"
+      "bytes": 50548,
+      "sha256": "f5640a205c8dc181190119d6ca02671c1118eebf7db5b509eb98016e4c0dba2b"
     },
     "tencent-item:93095": {
-      "file": "tencent-item-93095.png",
+      "file": "ddragon-DA_ProtectorsVow.png",
       "displayNames": [
         "圣盾使的誓约"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_ProtectorsVow.png",
       "upstreamApiName": "DA_ProtectorsVow",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15308,
-      "sha256": "de2a228804d87f258502364b03b05040f6c8e3ea47a4e420058548698eae70f7"
+      "bytes": 20634,
+      "sha256": "43d2c1cc47838514668e222bef3b3f1a1138d0a59bf5044210e5f710389d409a"
     },
     "tencent-item:93302": {
-      "file": "tencent-item-93302.png",
+      "file": "ddragon-DA_SunfireCape.png",
       "displayNames": [
         "日炎斗篷"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_SunfireCape.png",
       "upstreamApiName": "DA_SunfireCape",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 17021,
-      "sha256": "161ae1a736af0cdb0b9dfbb67ace082778e5e7d3ad84cfaec2ddfb73a3254a58"
+      "bytes": 21828,
+      "sha256": "483d021460f5335520f8387d45917a0d41060d51b4b10532646120af8d697d5c"
     },
     "tencent-item:93153": {
-      "file": "tencent-item-93153.png",
+      "file": "ddragon-DA_Deathblade.png",
       "displayNames": [
         "死亡之刃"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_Deathblade.png",
       "upstreamApiName": "DA_Deathblade",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 13584,
-      "sha256": "221c87dd7d134e7b19d40283b7be225e27c4a86f9e74786f501b51803012eb2d"
+      "bytes": 18383,
+      "sha256": "22673c228941eef78df3e8de6683eb8de518f82c996539e7a853b3f411c166d0"
     },
     "tencent-item:93298": {
-      "file": "tencent-item-93298.png",
+      "file": "ddragon-DA_DragonsClaw.png",
       "displayNames": [
         "巨龙之爪"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_DragonsClaw.png",
       "upstreamApiName": "DA_DragonsClaw",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14877,
-      "sha256": "994b344a540ac3b6d748fc141ac24d86a7321c7e14a397f443afde88449b9f7f"
+      "bytes": 18470,
+      "sha256": "ef3f727b288a84d6fd6b1d56a5498e037f797b99e8b895f33a8ad36a2d84df9c"
     },
     "tencent-item:93128": {
-      "file": "tencent-item-93128.png",
+      "file": "ddragon-DA_HandOfJustice.png",
       "displayNames": [
         "正义之手"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_HandOfJustice.png",
       "upstreamApiName": "DA_HandOfJustice",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 14781,
-      "sha256": "6d9e186b721d9d2bc421f2a7364f8de827b771010b353598c5c7a38dca5b3625"
+      "bytes": 18722,
+      "sha256": "ecd2d6d81361d0a44dc325898b1311725d3a264f3db8bf0a071febfcf996bcef"
     },
     "moba-champion:camille": {
-      "file": "moba-champion-camille.png",
+      "file": "ddragon-DA_18_Camille.png",
       "displayNames": [
         "卡蜜尔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_camille/skins/base/images/tft18_camille_splash_tile_2.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Camille_splash_centered_2.TFT_Set18.png",
       "upstreamApiName": "DA_18_Camille",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 76226,
-      "sha256": "1f430be72f3b7cdccd322196759263dd3149a251f503b163970d98b8194d6a77"
+      "bytes": 42917,
+      "sha256": "fff26140f08951a80b3d823fffade1af8cd638ccb602bb4ef03227c62f26d286"
     },
     "moba-item:ionic-spark": {
-      "file": "moba-item-ionic-spark.png",
+      "file": "ddragon-DA_IonicSpark.png",
       "displayNames": [
         "离子火花"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-item/DA_IonicSpark.png",
       "upstreamApiName": "DA_IonicSpark",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 15222,
-      "sha256": "8bd8005f53e4257f781d0ac94c3f042c0bcb54e5eb51e0ee1f6132d690c77cca"
+      "bytes": 20102,
+      "sha256": "8576b6f079def8bed40253fd4dcbb95cacf6aa1a83d685905f8f3c0164662606"
     },
     "moba-champion:kayle": {
-      "file": "moba-champion-kayle.png",
+      "file": "ddragon-DA_18_Kayle.png",
       "displayNames": [
         "凯尔"
       ],
-      "provider": "CommunityDragon (Riot client asset conversion)",
-      "sourceUrl": "https://raw.communitydragon.org/16.17/game/assets/characters/tft18_kayle/skins/base/images/tft18_kayle_splash_tile_42.png",
+      "provider": "Riot Data Dragon",
+      "sourceUrl": "https://ddragon.leagueoflegends.com/cdn/16.17.1/img/tft-champion/TFT18_Kayle_splash_centered_42.TFT_Set18.png",
       "upstreamApiName": "DA_18_Kayle",
-      "publishStatus": "fan-project-policy-review",
+      "publishStatus": "official-developer-asset",
       "rightsHolder": "Riot Games or applicable rights holder",
-      "bytes": 87274,
-      "sha256": "34240e6e739f76bb92e829ed8d9462043f3d88abaaadaad239cd92c4fe966ed6"
+      "bytes": 55600,
+      "sha256": "2a69bac4846d3dbc46fb1a95e9f26deeba077f4bec314e08f35568922b0cf9ed"
     }
   }
 }

@@ -151,7 +151,7 @@ export function App() {
 
       <footer className="site-footer">
         <img src={yiluMark} alt="" />
-        <div><p><b>非官方玩家工具。</b> 不读取客户端、实时对局或对手信息；来源数据分别展示，不合成虚假的统一胜率。</p><p className="riot-notice">Yilu Companion was created under Riot Games' “Legal Jibber Jabber” policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p></div>
+        <div><p><b>非官方玩家工具。</b> 不读取客户端、实时对局或对手信息；来源数据分别展示，不合成虚假的统一胜率。 {!__SINGLE_FILE__ ? <><a href="./privacy.html">隐私说明</a> · <a href="./terms.html">使用条款</a></> : null}</p><p className="riot-notice">Yilu Companion isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p></div>
         <span>{siteMeta.product.release}</span>
       </footer>
 

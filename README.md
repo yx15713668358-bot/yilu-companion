@@ -57,6 +57,9 @@ GitHub Pages构建位于 `dist/`；可双击使用的单HTML位于 `dist-single/
 
 完整方法见 [DATA_METHODOLOGY.md](DATA_METHODOLOGY.md)，数据字段见 [DATA_SCHEMA.md](DATA_SCHEMA.md)。
 
+网站隐私与使用边界见 [PRIVACY.md](PRIVACY.md) 和 [TERMS.md](TERMS.md)。
+Riot产品登记材料草稿见 [docs/RIOT_PRODUCT_REGISTRATION_DRAFT.md](docs/RIOT_PRODUCT_REGISTRATION_DRAFT.md)。
+
 ## 参与贡献
 
 欢迎报告页面问题、数据纠错或提交新阵容。开始前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。涉及数据的提交必须提供可公开访问的来源；涉及图片、图标或字体的提交必须同时说明来源和可使用依据。
@@ -65,7 +68,7 @@ GitHub Pages构建位于 `dist/`；可双击使用的单HTML位于 `dist-single/
 
 - 本仓库中由项目贡献者编写的**程序代码**采用 [MIT License](LICENSE)。
 - MIT 不覆盖棋子图片、装备图片、游戏名称、第三方统计、第三方文字、字体、商标或其他外部内容。
-- 当前136项运行素材已从CommunityDragon的Riot客户端素材转换路径重新获取，并记录逐项URL和哈希；它们不纳入MIT，也不代表可以脱离Riot政策商用。
+- 当前136个素材引用中，120个已映射到Riot Data Dragon官方静态素材；16个暂缺官方映射的野怪引用使用项目自有占位图。逐项URL和哈希均已记录。游戏素材不纳入MIT，也不代表可以脱离Riot政策商用。
 - 素材处理清单见 [ASSET_SOURCES.md](ASSET_SOURCES.md)，完整声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 非官方声明

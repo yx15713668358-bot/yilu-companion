@@ -2,11 +2,18 @@ import rawComps from './comps.json';
 import fileManifest from './asset-manifest.json';
 import type { Comp } from './types';
 
-const imageModules = import.meta.glob('../assets/game/*.png', {
-  eager: true,
-  query: '?url',
-  import: 'default',
-}) as Record<string, string>;
+const imageModules = {
+  ...import.meta.glob('../assets/game/*.png', {
+    eager: true,
+    query: '?url',
+    import: 'default',
+  }),
+  ...import.meta.glob('../assets/game/*.svg', {
+    eager: true,
+    query: '?url',
+    import: 'default',
+  }),
+} as Record<string, string>;
 
 const imageByName = Object.fromEntries(
   Object.entries(imageModules).map(([filePath, url]) => [filePath.split('/').at(-1), url]),

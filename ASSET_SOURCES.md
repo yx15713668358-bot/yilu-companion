@@ -6,12 +6,13 @@
 
 | 文件组 | 数量 | 当前来源 | 当前用途 | 公开发布状态 |
 |---|---:|---|---|---|
-| `src/assets/game/*.png` | 136 | CommunityDragon 16.17 对 Riot 客户端素材的转换输出 | 棋子卡、棋盘与装备 | 可按 Riot 粉丝项目政策使用；不纳入 MIT，仍以权利人政策为准 |
+| Riot Data Dragon图片 | 80个去重文件 / 120个素材键 | Riot Data Dragon 16.17.1 | 棋子卡、棋盘与装备 | 官方开发者素材；不纳入 MIT，仍以Riot政策为准 |
+| `asset-pending.svg` | 1个文件 / 16个素材键 | 项目原创 | 缺少Data Dragon映射的野怪占位 | 可公开；正式图待Riot允许来源或登记反馈 |
 | `src/assets/brand/yilu-mark.svg` | 1 | 项目原创 | 弈路助手品牌标记 | 项目原创，可随代码使用 |
 
 `public/assets/` 中如存在同名副本，沿用相同来源和状态，不重复计作新的授权。构建产物中的内嵌或复制版本也不改变原始素材的权利状态。
 
-历史 `moba-`、`tencent-` 文件名前缀仅保留为稳定内部ID；当前二进制内容已由 `scripts/migrate-game-assets.mjs` 刷新，不代表对应网站认可或赞助本项目。逐文件URL、哈希与上游ID记录在 `data/asset-rights.json`。
+历史 `moba-`、`tencent-` 素材键仅保留为稳定内部ID；当前二进制内容已由 `scripts/migrate-datadragon-assets.mjs` 刷新，不代表对应网站认可或赞助本项目。逐文件URL、哈希与上游ID记录在 `data/asset-rights.json`。
 
 ## 公开发布前的处理顺序
 
@@ -60,7 +61,8 @@ notes:
 ## 待完成发布闸门
 
 - [x] 为136项运行时素材记录原始 URL、上游ID和哈希。
-- [x] 使用 CommunityDragon 的 Riot 客户端素材转换替换历史攻略站二进制文件。
+- [x] 使用 Riot Data Dragon 16.17.1替换全部可映射的历史二进制文件。
+- [x] 对16个Data Dragon暂未列出的野怪素材键使用项目自有占位图。
 - [x] 生成 `data/asset-rights.json` 机器可读清单。
 - [ ] 上线前再次核对当时有效的 Riot 素材与粉丝项目政策。
 - [ ] 完成 Riot Developer Portal 产品登记与最终政策确认。

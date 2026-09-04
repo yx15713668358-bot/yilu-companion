@@ -22,6 +22,8 @@
 
 > Yilu Companion was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.
 
+> Yilu Companion isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+
 ## 腾讯游戏与国服内容
 
 腾讯游戏网站、国服客户端及专题页面中的名称、本地化文字、图片和其他内容归相应权利人所有。它们不受本项目 MIT 许可证覆盖。
@@ -39,7 +41,7 @@
 - 不绕过登录、验证码、付费墙、访问控制或反爬措施。
 - 如果站点不允许自动化使用，应停止对应适配器，不以技术手段规避限制。
 
-文件名中的 `moba-` 前缀同样只是历史内部ID。当前游戏图片已通过 CommunityDragon 的客户端素材转换路径重新获取；游戏美术权利仍归 Riot Games 或相应权利人，不纳入 MIT。处置状态见 [ASSET_SOURCES.md](ASSET_SOURCES.md)。
+文件名中的 `moba-` 前缀同样只是历史内部ID。当前公开构建只使用 Riot Data Dragon 可映射素材与项目自有占位图；游戏美术权利仍归 Riot Games 或相应权利人，不纳入 MIT。处置状态见 [ASSET_SOURCES.md](ASSET_SOURCES.md)。
 
 ## 开源依赖
 

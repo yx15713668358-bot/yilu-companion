@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">素材待官方映射</title>
+  <desc id="desc">黑曜石棋盘占位图</desc>
+  <rect width="256" height="256" rx="24" fill="#111813"/>
+  <path d="m128 28 82 47v106l-82 47-82-47V75z" fill="#19231c" stroke="#d6a64a" stroke-width="6"/>
+  <path d="m86 88 42-24 42 24v48l-42 24-42-24z" fill="#58b995" opacity=".8"/>
+  <path d="M80 182h96" stroke="#a8b3aa" stroke-width="8" stroke-linecap="round" opacity=".72"/>
+</svg>
