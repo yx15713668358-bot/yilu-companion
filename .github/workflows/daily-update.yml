@@ -1,0 +1,66 @@
+name: Daily source health check
+
+on:
+  schedule:
+    # GitHub cron uses UTC. 01:17 UTC = 09:17 Asia/Shanghai.
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-source-health
+  cancel-in-progress: false
+
+jobs:
+  guarded-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Probe official Riot patch page
+        id: riot_probe
+        run: node scripts/automation/check-riot.mjs --output .automation/riot-probe.json
+
+      - name: Run data quality gate
+        if: always()
+        run: node scripts/automation/quality-gate.mjs --probe .automation/riot-probe.json
+
+      - name: Type-check
+        if: success()
+        run: npm run check
+
+      - name: Build without publishing
+        if: success()
+        run: npm run build
+
+      - name: Run project QA
+        if: success()
+        run: npm run qa
+
+      - name: Preserve health report
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: source-health-${{ github.run_id }}
+          path: .automation/riot-probe.json
+          if-no-files-found: warn
+          include-hidden-files: true
+          retention-days: 14
+
+      # This workflow never commits or deploys. A failed source or quality check
+      # therefore cannot replace the last known-good GitHub Pages deployment.

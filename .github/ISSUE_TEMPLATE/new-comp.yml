@@ -1,0 +1,104 @@
+name: 新阵容候选
+description: 提议加入一套有完整来源与过渡依据的新阵容
+title: "[新阵容] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        新阵容不会仅凭榜单名字自动上线。正式收录前需要至少两个独立公开来源，以及可执行的完整过渡、装备和退出路线。
+
+  - type: input
+    id: name
+    attributes:
+      label: 阵容名称
+    validations:
+      required: true
+
+  - type: input
+    id: patch
+    attributes:
+      label: 适用补丁
+      placeholder: 例如 18.1d
+    validations:
+      required: true
+
+  - type: dropdown
+    id: goal
+    attributes:
+      label: 建议分区
+      options:
+        - 稳定吃分
+        - 冲击吃鸡
+        - 条件阵容
+        - 暂不确定
+    validations:
+      required: true
+
+  - type: input
+    id: scope
+    attributes:
+      label: 地区、段位和统计时间窗
+      placeholder: 未知项请明确写未知
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: 至少两个独立公开来源
+      description: 每行一个 URL，并写明评级、样本、更新时间和筛选口径。转载或同站点不同页面通常不算独立来源。
+    validations:
+      required: true
+
+  - type: textarea
+    id: identity
+    attributes:
+      label: 最终阵容与定位
+      description: 请写最终单位、主要羁绊、主 C、主坦、运营类型和目标等级。
+    validations:
+      required: true
+
+  - type: textarea
+    id: entry
+    attributes:
+      label: 进入条件与退出条件
+      description: 包括散件、自然来牌、血量、经济、同行以及必要强化或转职。
+    validations:
+      required: true
+
+  - type: textarea
+    id: items
+    attributes:
+      label: 装备路线
+      description: 请区分第一件、第二件、第三件、替代装备、代持人和换装时点。
+    validations:
+      required: true
+
+  - type: textarea
+    id: stages
+    attributes:
+      label: 过渡依据
+      description: 概述开局、2 阶段、3-2、4-1/4-2、5 阶段的人口、金币、上场牌、搜牌停止点和下一目标。
+    validations:
+      required: true
+
+  - type: textarea
+    id: pivots
+    attributes:
+      label: 转阵与成型后提升
+      description: 写明没胡时转去哪、保留和出售哪些牌、装备如何继承，以及升人口后的替换顺序。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我提供了至少两个相互独立、适用当前补丁的公开来源。
+          required: true
+        - label: 内容不依赖实时读取游戏客户端、商店或对手信息。
+          required: true
+        - label: 我没有复制付费内容、大段转载第三方攻略或提交无权再分发的素材。
+          required: true
+

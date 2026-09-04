@@ -1,0 +1,31 @@
+{
+  "name": "yilu-companion",
+  "private": true,
+  "version": "7.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:single": "tsc --noEmit && vite build --mode single --outDir dist-single",
+    "preview": "vite preview",
+    "check": "tsc --noEmit",
+    "check:official": "node scripts/automation/check-riot.mjs --offline --output .automation/riot-probe.json && node scripts/automation/quality-gate.mjs --probe .automation/riot-probe.json",
+    "qa": "node scripts/qa.mjs",
+    "qa:single": "node scripts/qa.mjs --single",
+    "data:migrate-v6": "node scripts/migrate-v6-data.mjs",
+    "assets:refresh": "node scripts/migrate-game-assets.mjs",
+    "verify": "npm run check:official && npm run build && npm run build:single && npm run qa && npm run qa:single"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@vitejs/plugin-react": "6.1.1",
+    "typescript": "7.0.2",
+    "vite": "8.2.2",
+    "vite-plugin-singlefile": "2.3.3"
+  }
+}

@@ -1,0 +1,94 @@
+name: 数据纠错
+description: 报告阵容、装备、阶段、来源统计或版本口径问题
+title: "[数据] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请把“来源原始数据”和“你的实战建议”分开填写。不同来源冲突时我们会保留各自口径，不会简单取平均。
+
+  - type: input
+    id: comp
+    attributes:
+      label: 阵容名称或 ID
+      placeholder: 神谕阿狸 / invoker-ahri
+    validations:
+      required: true
+
+  - type: input
+    id: patch
+    attributes:
+      label: 适用补丁
+      placeholder: 例如 18.1d
+    validations:
+      required: true
+
+  - type: input
+    id: scope
+    attributes:
+      label: 地区、段位和统计时间窗
+      placeholder: 国服 / 白金以下 / 最近 7 天；未知项请写未知
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 官方补丁或数值
+        - 来源评级或统计
+        - 最终阵容
+        - 装备与代持
+        - 阶段棋盘与 D 牌节奏
+        - 转阵或成型后提升
+        - 中文名称或素材
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前页面内容
+      description: 请引用最小必要片段，不要复制整篇第三方攻略。
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: 建议修正
+      description: 说明应改成什么，以及是否属于你的整理建议。
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: 原始来源
+      description: 每行一个公开 URL，并补充页面日期、样本和筛选口径；没有显示的字段请写未知。
+      placeholder: |
+        https://example.com/... — 更新日期：……；样本：……；口径：……
+        https://example.org/... — 更新日期：……；样本：……；口径：……
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: 对玩家的影响
+      placeholder: 例如会导致玩家在 3-2 错误卖掉核心牌
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交确认
+      options:
+        - label: 来源可以公开访问，且我没有绕过登录、验证码、付费墙或访问限制。
+          required: true
+        - label: 我没有大段复制第三方攻略文字或提交无权再分发的素材。
+          required: true
+

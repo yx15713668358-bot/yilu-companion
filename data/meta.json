@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "product": {
+    "name": "弈路助手",
+    "release": "v7.0.0-rc1",
+    "mode": "static-guide",
+    "audience": "国服、白金以下",
+    "region": "CN"
+  },
+  "set": "S18",
+  "patch": "18.1",
+  "patchLabel": "18.1热修后",
+  "contentVerifiedAt": "2026-09-04",
+  "officialPatchSourceId": "riot-patch-notes",
+  "automation": {
+    "mode": "guarded",
+    "dailySchedule": "Asia/Shanghai 09:17",
+    "publishPolicy": "last-known-good",
+    "freshnessWarningDays": 3,
+    "freshnessBlockDays": 7,
+    "existingCompositionMetrics": "future-adapter-required",
+    "newCompositionPolicy": "review-required",
+    "thirdPartyFetch": "disabled-until-explicit-permission",
+    "notes": "当前自动检查Riot官方版本页健康和补丁匹配。第三方来源适配器在取得明确许可前保持禁用。"
+  }
+}

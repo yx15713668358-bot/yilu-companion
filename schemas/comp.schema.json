@@ -1,0 +1,335 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/comp.schema.json",
+  "title": "弈路助手阵容数据",
+  "description": "公开发布前的阵容结构契约。允许旧版扩展字段，但对用户可见的运营、装备与棋盘字段严格校验。",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "$ref": "#/$defs/comp"
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "position": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "integer", "minimum": 0, "maximum": 3 },
+        { "type": "integer", "minimum": 0, "maximum": 7 }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "item": {
+      "type": "object",
+      "required": ["asset", "name"],
+      "properties": {
+        "asset": { "$ref": "#/$defs/nonEmptyString" },
+        "name": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": true
+    },
+    "unit": {
+      "type": "object",
+      "required": ["asset", "name", "role", "pos"],
+      "properties": {
+        "asset": { "$ref": "#/$defs/nonEmptyString" },
+        "name": { "$ref": "#/$defs/nonEmptyString" },
+        "role": { "$ref": "#/$defs/nonEmptyString" },
+        "pos": { "$ref": "#/$defs/position" },
+        "cost": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "slotCost": { "type": "integer", "minimum": 1, "maximum": 2 }
+      },
+      "additionalProperties": true
+    },
+    "loadout": {
+      "type": "object",
+      "required": ["label", "items"],
+      "properties": {
+        "label": { "$ref": "#/$defs/nonEmptyString" },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": { "$ref": "#/$defs/item" }
+        }
+      },
+      "additionalProperties": true
+    },
+    "substitute": {
+      "type": "object",
+      "required": ["slot", "options"],
+      "properties": {
+        "slot": { "$ref": "#/$defs/nonEmptyString" },
+        "options": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["asset", "name", "band"],
+            "properties": {
+              "asset": { "$ref": "#/$defs/nonEmptyString" },
+              "name": { "$ref": "#/$defs/nonEmptyString" },
+              "band": { "$ref": "#/$defs/nonEmptyString" }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "itemHolder": {
+      "type": "object",
+      "required": ["type", "holder", "holderAsset", "items", "target", "targetAsset", "transferAt"],
+      "properties": {
+        "type": { "$ref": "#/$defs/nonEmptyString" },
+        "holder": { "$ref": "#/$defs/nonEmptyString" },
+        "holderAsset": { "$ref": "#/$defs/nonEmptyString" },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": { "$ref": "#/$defs/item" }
+        },
+        "target": { "$ref": "#/$defs/nonEmptyString" },
+        "targetAsset": { "$ref": "#/$defs/nonEmptyString" },
+        "transferAt": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": true
+    },
+    "transitionStage": {
+      "type": "object",
+      "required": [
+        "stage",
+        "level",
+        "goldGoal",
+        "rollAction",
+        "boardUnits",
+        "mustHold",
+        "temporaryUnits",
+        "substitutes",
+        "itemHolders",
+        "sellWhen",
+        "nextTarget",
+        "pivotWarning",
+        "transitionSource"
+      ],
+      "properties": {
+        "stage": {
+          "enum": ["开局", "2阶段", "3-2", "4-1/4-2", "5阶段"]
+        },
+        "level": { "type": "integer", "minimum": 1, "maximum": 11 },
+        "goldGoal": { "$ref": "#/$defs/nonEmptyString" },
+        "rollAction": { "$ref": "#/$defs/nonEmptyString" },
+        "boardUnits": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 11,
+          "items": { "$ref": "#/$defs/unit" }
+        },
+        "mustHold": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "temporaryUnits": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "substitutes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/substitute" }
+        },
+        "itemHolders": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/itemHolder" }
+        },
+        "sellWhen": { "$ref": "#/$defs/nonEmptyString" },
+        "nextTarget": { "$ref": "#/$defs/nonEmptyString" },
+        "pivotWarning": { "$ref": "#/$defs/nonEmptyString" },
+        "transitionSource": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": true
+    },
+    "postCapUnit": {
+      "type": "object",
+      "required": ["asset", "name", "reason"],
+      "properties": {
+        "asset": { "$ref": "#/$defs/nonEmptyString" },
+        "name": { "$ref": "#/$defs/nonEmptyString" },
+        "reason": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": true
+    },
+    "postCapPlan": {
+      "type": "object",
+      "required": [
+        "stableAt",
+        "stayAndRollWhen",
+        "goNineWhen",
+        "level9Adds",
+        "removeFirst",
+        "priority",
+        "extraItems",
+        "cannotNine",
+        "source"
+      ],
+      "properties": {
+        "stableAt": { "$ref": "#/$defs/nonEmptyString" },
+        "stayAndRollWhen": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "goNineWhen": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "level9Adds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/postCapUnit" }
+        },
+        "removeFirst": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/postCapUnit" }
+        },
+        "priority": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "extraItems": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "cannotNine": { "$ref": "#/$defs/nonEmptyString" },
+        "source": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": true
+    },
+    "sourceStat": {
+      "type": "object",
+      "required": ["source", "rating", "updated", "note"],
+      "properties": {
+        "source": { "$ref": "#/$defs/nonEmptyString" },
+        "rating": { "$ref": "#/$defs/nonEmptyString" },
+        "updated": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "note": { "$ref": "#/$defs/nonEmptyString" },
+        "games": { "type": "integer", "minimum": 0 },
+        "avg": { "type": "number", "minimum": 1, "maximum": 8 },
+        "top4": { "$ref": "#/$defs/nonEmptyString" },
+        "win": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": true
+    },
+    "prototype": {
+      "type": "object",
+      "required": ["headline", "brief", "itemPriority", "flexibleItems", "avoidItem", "keyUnitNames"],
+      "properties": {
+        "headline": { "$ref": "#/$defs/nonEmptyString" },
+        "brief": { "$ref": "#/$defs/nonEmptyString" },
+        "itemPriority": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        },
+        "flexibleItems": { "$ref": "#/$defs/nonEmptyString" },
+        "avoidItem": { "$ref": "#/$defs/nonEmptyString" },
+        "keyUnitNames": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEmptyString" }
+        }
+      },
+      "additionalProperties": true
+    },
+    "comp": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "goal",
+        "currentTier",
+        "consensus",
+        "trend",
+        "style",
+        "difficulty",
+        "damage",
+        "traits",
+        "updateNote",
+        "suitable",
+        "avoid",
+        "pivot",
+        "roll",
+        "threeStar",
+        "boardNote",
+        "units",
+        "loadouts",
+        "transitionStages",
+        "postCapPlan",
+        "sourceStats",
+        "prototype"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": { "$ref": "#/$defs/nonEmptyString" },
+        "goal": { "enum": ["climb", "chicken", "conditional"] },
+        "currentTier": {
+          "type": "string",
+          "pattern": "^[SABCD](?:[+-])?$"
+        },
+        "consensus": { "$ref": "#/$defs/nonEmptyString" },
+        "trend": { "$ref": "#/$defs/nonEmptyString" },
+        "style": { "$ref": "#/$defs/nonEmptyString" },
+        "difficulty": { "$ref": "#/$defs/nonEmptyString" },
+        "damage": { "$ref": "#/$defs/nonEmptyString" },
+        "traits": { "$ref": "#/$defs/nonEmptyString" },
+        "updateNote": { "$ref": "#/$defs/nonEmptyString" },
+        "suitable": { "$ref": "#/$defs/nonEmptyString" },
+        "avoid": { "$ref": "#/$defs/nonEmptyString" },
+        "pivot": { "$ref": "#/$defs/nonEmptyString" },
+        "roll": { "$ref": "#/$defs/nonEmptyString" },
+        "threeStar": { "$ref": "#/$defs/nonEmptyString" },
+        "boardNote": { "$ref": "#/$defs/nonEmptyString" },
+        "units": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 11,
+          "items": { "$ref": "#/$defs/unit" }
+        },
+        "loadouts": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/loadout" }
+        },
+        "transitionStages": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": { "$ref": "#/$defs/transitionStage" }
+        },
+        "postCapPlan": { "$ref": "#/$defs/postCapPlan" },
+        "sourceStats": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/sourceStat" }
+        },
+        "prototype": { "$ref": "#/$defs/prototype" }
+      },
+      "additionalProperties": true
+    }
+  }
+}

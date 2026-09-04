@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">弈路助手标识</title>
+  <desc id="desc">由四枚交错棋盘格组成的原创八向标记</desc>
+  <path fill="#090d0b" d="M32 2 58 17v30L32 62 6 47V17z"/>
+  <path fill="none" stroke="#d6a64a" stroke-width="2" d="M32 5 55 18.5v27L32 59 9 45.5v-27z"/>
+  <path fill="#d6a64a" d="m20 18 10 5.8v11.5L20 29.5zm24 0v11.5l-10 5.8V23.8zM20 34.5l10 5.8v11.5L20 46zm24 0V46l-10 5.8V40.3z"/>
+  <path fill="#58b995" d="m32 26.8 7.5 4.3v8.7L32 44l-7.5-4.2v-8.7z"/>
+</svg>
