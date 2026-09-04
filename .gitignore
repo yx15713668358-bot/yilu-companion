@@ -4,3 +4,8 @@ dist-single/
 .DS_Store
 *.log
 .automation/
+.private-data/
+dist-private/
+.env
+.env.*
+!.env.example

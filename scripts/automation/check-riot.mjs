@@ -10,14 +10,19 @@ import {
 } from './common.mjs';
 
 const args = parseArgs(process.argv.slice(2));
-const outputPath = args.output || '.automation/riot-probe.json';
+const selectedModes = [args.offline, args.live].filter(Boolean);
+if (selectedModes.length !== 1) {
+  throw new Error('Choose exactly one explicit mode: --offline for the fixture or --live for a manual network check.');
+}
+
+const outputPath = args.output || '.automation/riot-patch-check.json';
 const registry = await readJson('data/source-registry.json');
 const meta = await readJson('data/meta.json');
 const source = registry.sources.find((entry) => entry.id === meta.officialPatchSourceId);
 
 if (!source) throw new Error(`Missing official patch source: ${meta.officialPatchSourceId}`);
-if (!source.enabled || !source.automatedFetch || source.adapter !== 'riot-patch-page') {
-  throw new Error(`Official patch source is not enabled with riot-patch-page: ${source.id}`);
+if (!source.enabled || source.automatedFetch || source.updateMode !== 'manual-on-demand' || source.adapter !== 'riot-patch-page') {
+  throw new Error(`Official patch source is not configured for manual-on-demand checks: ${source.id}`);
 }
 
 function detectPatch(html) {
@@ -49,7 +54,7 @@ try {
   let finalUrl = source.url;
   let status = 200;
   let contentType = 'text/html; charset=utf-8';
-  let mode = 'live';
+  let mode = 'manual-live';
 
   if (args.offline) {
     mode = 'offline-fixture';
@@ -62,7 +67,7 @@ try {
       signal: AbortSignal.timeout(20_000),
       headers: {
         accept: 'text/html,application/xhtml+xml',
-        'user-agent': 'Yilu-Companion-Metadata-Healthcheck/0.1 (+GitHub Actions; official patch detection only)',
+        'user-agent': 'Yilu-Companion-Manual-Patch-Check/1.0 (+explicit maintainer check; official patch detection only)',
       },
     });
     status = response.status;
@@ -88,6 +93,7 @@ try {
     schemaVersion: 1,
     sourceId: source.id,
     checkedAt: new Date().toISOString(),
+    trigger: 'explicit-cli',
     mode,
     ok,
     health: ok ? 'healthy' : 'blocked',
@@ -106,7 +112,8 @@ try {
     schemaVersion: 1,
     sourceId: source.id,
     checkedAt: new Date().toISOString(),
-    mode: args.offline ? 'offline-fixture' : 'live',
+    trigger: 'explicit-cli',
+    mode: args.offline ? 'offline-fixture' : 'manual-live',
     ok: false,
     health: 'error',
     expectedPatch: meta.patch,

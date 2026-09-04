@@ -31,11 +31,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Confirm official patch before publish
-        run: node scripts/automation/check-riot.mjs --output .automation/riot-probe.json
-
-      - name: Run data quality gate
-        run: node scripts/automation/quality-gate.mjs --probe .automation/riot-probe.json
+      - name: Validate reviewed static data
+        run: node scripts/automation/quality-gate.mjs
 
       - name: Type-check
         run: npm run check

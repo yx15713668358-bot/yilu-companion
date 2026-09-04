@@ -20,6 +20,8 @@
 
 弈路助手是独立制作的非官方玩家项目，与 Riot Games 无隶属关系，也未获得其认可、赞助或合作背书。项目公开前应按当时有效的 Riot 开发者政策、粉丝内容政策和静态数据使用规则完成复核；政策可能变化，不能只依赖历史记录。
 
+仓库保留官方Riot TFT API的本地手动调用工具。Personal或Development Key及其原始响应、玩家标识和聚合结果只供维护者本地验证，不包含在公开数据或网站中。未来即使取得Production授权，也必须按授权范围完成人工复核、匿名化和来源标注后，才能把有限字段转写为公开静态数据。
+
 > Yilu Companion was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.
 
 > Yilu Companion isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
@@ -37,9 +39,10 @@
 - 各站点名称、数据和内容归其各自权利人所有。
 - 来源链接仅用于追溯，不表示该站点认可本项目。
 - 项目应记录有限的事实字段和自行整理的摘要，不大段复制攻略文字。
-- 使用自动化前必须核对各站点当时有效的条款、robots 指令和访问限制。
+- 当前只允许人工查阅和有限事实摘要，不运行第三方站点自动适配器。
+- 如果未来重新评估自动化，必须先核对各站点当时有效的条款、robots 指令和访问限制，并取得明确许可。
 - 不绕过登录、验证码、付费墙、访问控制或反爬措施。
-- 如果站点不允许自动化使用，应停止对应适配器，不以技术手段规避限制。
+- 如果站点不允许自动化使用，应保持对应适配器禁用，不以技术手段规避限制。
 
 文件名中的 `moba-` 前缀同样只是历史内部ID。当前公开构建只使用 Riot Data Dragon 可映射素材与项目自有占位图；游戏美术权利仍归 Riot Games 或相应权利人，不纳入 MIT。处置状态见 [ASSET_SOURCES.md](ASSET_SOURCES.md)。
 

@@ -5,7 +5,7 @@
 - 在线版：https://yx15713668358-bot.github.io/yilu-companion/
 - 离线单HTML：https://yx15713668358-bot.github.io/yilu-companion/downloads/yilu-s18-offline.html
 
-> 项目状态：**v7.0.0 公开测试版。** 已迁移16套阵容与80个过渡阶段，GitHub Pages和每日官方版本健康检查已经运行；第三方阵容数据自动抓取及Riot产品登记仍待完成。
+> 项目状态：**v7.0.0-rc2 公开测试版。** 已迁移16套阵容与80个过渡阶段。GitHub Pages只展示人工审核并提交的静态快照，不执行每日数据更新。
 
 ## 核心能力
 
@@ -14,7 +14,8 @@
 - 展示必留牌、临时牌、装备合成顺序、代持人与换装时点。
 - 提供成型后的升人口路线、替换顺序和决赛圈站位建议。
 - 对不同来源的评级、样本和统计口径分别展示，不制造“统一胜率”。
-- GitHub Actions每天检查Riot官方补丁；全部质量闸门通过后才允许Pages部署。
+- 保留Riot官方补丁页检查和TFT API本地工具，但都只能由维护者显式手动运行。
+- GitHub Pages从已审核的仓库数据确定性构建，不联网读取补丁页、Riot API或第三方阵容站。
 - 保留可直接双击使用的离线单 HTML 构建。
 
 ## 不做什么
@@ -37,29 +38,36 @@ npm run dev
 提交改动前运行：
 
 ```bash
-npm run check
-npm run build
-npm run build:single
 npm run verify
 ```
 
 GitHub Pages构建位于 `dist/`；可双击使用的单HTML位于 `dist-single/index.html`。
 
-## 数据更新原则
+手动检查官方补丁页：
+
+```bash
+npm run check:patch:live
+```
+
+手动Riot TFT API工具见 [docs/RIOT_TFT_MANUAL_API.md](docs/RIOT_TFT_MANUAL_API.md)。它只从本地环境变量读取密钥，并把结果写入被Git忽略的 `.private-data/`。`npm run verify`、CI和Pages部署都不会调用官方API。
+
+## 数据维护与公开边界
 
 1. 官方补丁说明只用于确认版本和数值改动。
 2. 阵容评级至少交叉核对两个相互独立的公开来源。
-3. 每条统计保留补丁、地区、段位、样本、抓取时间和原始链接。
+3. 每条统计保留补丁、地区、段位、样本、观察时间和原始链接。
 4. 来源冲突时分别展示，不合并成一个看似精确的数字。
-5. 已有阵容可自动更新统计、趋势和排序；过渡、装备、转阵和升人口路线必须人工审核。
-6. 全新阵容只能由自动化创建候选 Issue 或 Draft PR，补齐完整流程并审核后才可上线。
-7. 更新失败时保留上一份已验证数据，并区分“最后检查时间”和“最后成功更新时间”。
+5. 统计、趋势、排序、过渡、装备、转阵和升人口路线都必须经过人工复核后提交。
+6. 新阵容先作为人工候选补齐完整流程，审核通过后才能进入公开快照。
+7. Personal或Development API Key只用于本地验证。其原始响应、玩家标识和聚合结果不得提交、部署或打包。
+8. 只有取得适用的Production授权后，API聚合结果才可进入人工复核流程；通过复核并转写为匿名公开字段后，仍以普通静态提交发布。
+9. 版本变化不会自动改写页面。公开站持续展示最近一次人工审核快照，并明确核对日期。
 
 完整方法见 [DATA_METHODOLOGY.md](DATA_METHODOLOGY.md)，数据字段见 [DATA_SCHEMA.md](DATA_SCHEMA.md)。
 
 网站隐私与使用边界见 [PRIVACY.md](PRIVACY.md) 和 [TERMS.md](TERMS.md)。
-Riot产品登记材料草稿见 [docs/RIOT_PRODUCT_REGISTRATION_DRAFT.md](docs/RIOT_PRODUCT_REGISTRATION_DRAFT.md)。
-第三方数据授权询问草稿见 [docs/DATA_SOURCE_PERMISSION_REQUESTS.md](docs/DATA_SOURCE_PERMISSION_REQUESTS.md)。
+Riot产品登记历史草稿见 [docs/RIOT_PRODUCT_REGISTRATION_DRAFT.md](docs/RIOT_PRODUCT_REGISTRATION_DRAFT.md)。Production申请当前暂停，支持请求草稿已取消且未发送。
+第三方数据授权询问的存档草稿见 [docs/DATA_SOURCE_PERMISSION_REQUESTS.md](docs/DATA_SOURCE_PERMISSION_REQUESTS.md)；当前不运行第三方自动适配器。
 
 ## 参与贡献
 

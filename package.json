@@ -1,7 +1,7 @@
 {
   "name": "yilu-companion",
   "private": true,
-  "version": "7.0.0",
+  "version": "7.0.0-rc.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,12 +9,19 @@
     "build:single": "tsc --noEmit && vite build --mode single --outDir dist-single",
     "preview": "vite preview",
     "check": "tsc --noEmit",
-    "check:official": "node scripts/automation/check-riot.mjs --offline --output .automation/riot-probe.json && node scripts/automation/quality-gate.mjs --probe .automation/riot-probe.json",
+    "check:data": "node scripts/automation/quality-gate.mjs",
+    "check:patch:fixture": "node scripts/automation/check-riot.mjs --offline --output .automation/riot-probe.json && node scripts/automation/quality-gate.mjs --probe .automation/riot-probe.json",
+    "check:patch:live": "node scripts/automation/check-riot.mjs --live --output .automation/riot-probe.json && node scripts/automation/quality-gate.mjs --probe .automation/riot-probe.json",
+    "riot:tft:dry-run": "node scripts/riot-tft-manual/cli.mjs",
+    "riot:tft:offline": "node scripts/riot-tft-manual/cli.mjs --offline",
+    "riot:tft:live": "node scripts/riot-tft-manual/cli.mjs --live",
+    "riot:tft:live:write": "node scripts/riot-tft-manual/cli.mjs --live --write",
+    "riot:tft:test": "node scripts/riot-tft-manual/test.mjs",
     "qa": "node scripts/qa.mjs",
     "qa:single": "node scripts/qa.mjs --single",
     "data:migrate-v6": "node scripts/migrate-v6-data.mjs",
     "assets:refresh": "node scripts/migrate-datadragon-assets.mjs",
-    "verify": "npm run check:official && npm run build && npm run build:single && npm run qa && npm run qa:single"
+    "verify": "npm run check:data && npm run check:patch:fixture && npm run riot:tft:test && npm run build && npm run build:single && npm run qa && npm run qa:single"
   },
   "dependencies": {
     "react": "19.2.8",

@@ -2,7 +2,22 @@
 
 更新日期：2026年9月4日
 
-状态：已准备，尚未提交。提交属于代表维护者向Riot发送产品信息，必须由维护者确认后执行。
+状态：已填写并尝试提交，但 Riot Developer Portal 三次返回 `Failed to create application! Selected app type is not available`，其中最后一次为退出并重新登录后的全新流程。未创建Production应用；账号内仅有系统自动生成的Development API Key。现已暂停Production申请，不再重试；支持请求草稿已取消且未提交。当前只保留官方API的本地手动验证路径，公开站继续使用人工审核的静态数据。
+
+## 当前 Personal 私有原型申请草稿
+
+状态：Developer Portal 的 Personal 申请表已打开，尚未填写、未完成人机验证、未提交，也未创建持久密钥。
+
+- Product name: `Yilu Companion Private API Prototype`
+- Game: `Teamfight Tactics`
+- Product URL: 留空（Personal表单可选）
+- Scope: 只申请 Standard API，用于维护者本地手动验证 `tft-league-v1` 与 `tft-match-v1`
+- Output: 仅写入被Git忽略的 `.private-data/riot-tft/`
+- Public use: 不使用Personal Key驱动GitHub Pages，不公开Personal/Development原始响应或聚合结果
+
+拟提交说明：
+
+> Yilu Companion Private API Prototype is a private, local-only proof of concept used by the developer to test the official Teamfight Tactics Standard APIs and a future Production application data pipeline. It manually calls tft-league-v1 and tft-match-v1 only when the maintainer explicitly runs a local command. The key is read from a process environment variable and is never placed in source code, command arguments, logs, GitHub Actions, the frontend, or the public repository. Raw responses and anonymized aggregates remain in a Git-ignored local private directory and do not power or update the public GitHub Pages site. The prototype does not use RSO, Tournament APIs, spectator or live-client data, China/Tencent routes, player lookup, or real-time recommendations. Its purpose is limited to validating documented endpoints, routing, rate-limit handling, schemas, identifier removal, and aggregate calculations before any future Production application.
 
 ## 基础信息
 
@@ -34,17 +49,17 @@
 
 ## Current data flow
 
-> Riot official patch pages and approved static assets -> scheduled server-side check -> schema and consistency validation -> human-reviewed guide data -> GitHub Pages static build. A visitor downloads only static HTML, CSS, JavaScript, and assets. No player data is sent to the project.
+> Maintainers manually review official patch pages, approved static assets, and permitted public references, then commit reviewed guide data. GitHub Pages performs a deterministic static build from that commit and does not call Riot APIs or source websites. Visitors download only static HTML, CSS, JavaScript, and assets. No player data is sent to the project.
 
 ## Real-time behavior statement
 
 > The stage selector only reveals pre-authored static content. It does not detect game state and does not change from player actions, lobby composition, opponents, shop rolls, or client telemetry.
 
-## 如果申请 Production API Key
+## 如果未来恢复Production API Key申请
 
 ### Proposed API use
 
-> A scheduled backend job will sample completed TFT matches from supported Riot regions, compute patch-, rank-, and region-specific aggregate composition observations, enforce minimum sample thresholds, and publish only anonymous aggregates. It will not expose PUUIDs or Riot IDs, perform player lookup, use RSO, or provide live-game recommendations.
+> A maintainer-triggered job would sample completed TFT matches from supported Riot regions and prepare private patch-, rank-, and region-specific aggregate observations for review. No API output would publish automatically. Only fields allowed by the approved Production application could be anonymized, manually reviewed, and rewritten into a later static data commit. The public product would not expose PUUIDs or Riot IDs, offer player lookup, use RSO, or provide live-game recommendations.
 
 ### Requested APIs
 
@@ -55,11 +70,11 @@
 
 ### Privacy and minimization
 
-> PUUIDs are processed temporarily inside the scheduled backend only to discover and de-duplicate completed matches. Player identifiers are not published. Only patch-, region-, rank-, and composition-fingerprint aggregates that pass minimum sample thresholds are saved. The API key is stored only as a GitHub Actions secret and is never included in the repository, frontend, logs, artifacts, or downloadable build.
+> During local manual processing, PUUIDs may be handled temporarily only to discover and de-duplicate completed matches. The API key is read from a local environment variable, and all Development or Personal key output stays in the Git-ignored `.private-data/` directory. Keys, player identifiers, raw responses, and Development or Personal aggregates are never included in the repository, pull requests, GitHub Actions, frontend, logs, artifacts, GitHub Pages, or downloadable build. If Production access is approved later, any public aggregate would still require scope validation, minimum sample thresholds, anonymization, and human review before being rewritten into static public data.
 
 ### Region limitation
 
-Riot当前公开TFT路由不包含中国大陆腾讯服务器。Production API自动统计必须标注为全球服或具体支持区服，不能写成国服统计。中文界面和 `zh_CN` 静态资源不等于国服比赛数据。
+Riot当前公开TFT路由不包含中国大陆腾讯服务器。任何官方API统计都必须标注具体支持平台、区域、段位、补丁和日期，不能写成国服统计。中文界面和 `zh_CN` 静态资源不等于国服比赛数据。
 
 ## 截图清单
 
@@ -71,16 +86,13 @@ Riot当前公开TFT路由不包含中国大陆腾讯服务器。Production API�
 - 手机390px：首页和阶段战术板。
 - Footer、Privacy与Terms。
 
-## 提交流程
+## 若未来恢复申请
 
-1. 使用维护者Riot账号登录 Developer Portal。
-2. 选择 Register Product / Project。
-3. 决定登记当前无API版本，或申请Production API用于匿名聚合统计。
-4. 将本文件内容映射到实际表单字段。
-5. 提交前再次确认产品描述、目标地区、数据流和联系人。
-6. 提交后，Riot会提供站点验证字符串。
-7. 将验证字符串原样保存到站点要求的路径并重新部署。
-8. 在Portal完成验证并等待审核。
+1. 重新核对当时有效的Riot政策、产品类型和Production申请入口。
+2. 确认公开产品仍为静态快照，并确定Production数据允许保存和展示的字段。
+3. 更新本草稿中的产品描述、目标地区、数据流和联系人。
+4. 由维护者明确决定是否再次代表项目提交。
+5. 如成功创建申请，再按Portal当时给出的验证步骤操作并记录真实状态。
 
 ## 官方依据
 

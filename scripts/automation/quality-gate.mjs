@@ -1,7 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {
-  daysBetween,
   isNonEmptyString,
   parseArgs,
   parseIsoDate,
@@ -36,24 +35,29 @@ check(schema.type === 'array' && schema.$defs?.comp, 'comp schema root is incomp
 check(meta.schemaVersion === 1, 'data/meta.json schemaVersion must be 1');
 check(meta.set === 'S18', 'meta.set must be S18');
 check(/^\d{1,2}\.\d{1,2}$/.test(meta.patch || ''), 'meta.patch must look like 18.1');
-check(meta.automation?.publishPolicy === 'last-known-good', 'publish policy must be last-known-good');
+check(meta.automation?.mode === 'manual-on-demand', 'maintenance mode must be manual-on-demand');
+check(meta.automation?.publishPolicy === 'reviewed-static-snapshot', 'publish policy must be reviewed-static-snapshot');
+check(meta.automation?.publicBuildSourceNetworkAccess === 'forbidden', 'public builds must not fetch source data');
+check(meta.automation?.officialPatchCheck === 'explicit-manual-only', 'official patch checks must be explicit and manual');
+check(meta.automation?.officialApiUse === 'private-local-only', 'official API use must remain private and local');
+check(meta.automation?.personalDevelopmentOutput === 'never-public', 'Personal/Development API output must never be public');
+check(meta.automation?.productionOutputPolicy === 'manual-review-required', 'Production API output must require manual review');
 check(meta.automation?.newCompositionPolicy === 'review-required', 'new compositions must require review');
 check(meta.automation?.thirdPartyFetch === 'disabled-until-explicit-permission', 'third-party default must remain disabled');
 check(assetRights.schemaVersion === 1, 'asset rights registry schemaVersion must be 1');
 
 const verifiedDate = parseIsoDate(meta.contentVerifiedAt);
 check(Boolean(verifiedDate), 'meta.contentVerifiedAt must be YYYY-MM-DD');
-if (verifiedDate) {
-  const ageDays = daysBetween(verifiedDate);
-  check(ageDays >= 0, 'meta.contentVerifiedAt cannot be in the future');
-  warn(ageDays <= meta.automation.freshnessWarningDays, `content review is ${ageDays} days old`);
-  check(ageDays <= meta.automation.freshnessBlockDays, `content review is stale (${ageDays} days; block after ${meta.automation.freshnessBlockDays})`);
-}
 
 check(registry.schemaVersion === 1, 'source registry schemaVersion must be 1');
 check(registry.policy?.automatedFetchRequiresExplicitPermission === true, 'source registry must require explicit automated-fetch permission');
+check(registry.policy?.networkAccessMode === 'explicit-manual-only', 'source network access must be explicit and manual');
+check(registry.policy?.scheduledFetch === false, 'scheduled source fetching must remain disabled');
+check(registry.policy?.publicBuildSourceNetworkAccess === false, 'public builds must not fetch source data');
+check(registry.policy?.privateApiOutputTracked === false, 'private API output must not be tracked');
 check(Array.isArray(registry.sources) && registry.sources.length > 0, 'source registry must contain sources');
 check(unique(registry.sources.map((source) => source.id)), 'source registry IDs must be unique');
+check(registry.sources.every((source) => source.automatedFetch === false), 'all scheduled or automatic source fetching must remain disabled');
 
 const sourceAliases = new Map();
 for (const source of registry.sources) {
@@ -81,10 +85,61 @@ const officialSource = registry.sources.find((source) => source.id === meta.offi
 check(Boolean(officialSource), `official patch source is missing: ${meta.officialPatchSourceId}`);
 if (officialSource) {
   check(officialSource.providerKind === 'official', 'official patch source must have providerKind=official');
-  check(officialSource.enabled && officialSource.automatedFetch, 'official patch source must be enabled');
+  check(officialSource.enabled === true && officialSource.automatedFetch === false, 'official patch source must be manual-only');
+  check(officialSource.updateMode === 'manual-on-demand', 'official patch source must use manual-on-demand mode');
   check(officialSource.adapter === 'riot-patch-page', 'official patch source must use riot-patch-page');
   check(officialSource.expectedPatch === meta.patch, 'official source expectedPatch must equal meta.patch');
 }
+
+const officialApiSource = registry.sources.find((source) => source.id === 'riot-tft-api');
+check(Boolean(officialApiSource), 'official Riot TFT API source is missing');
+if (officialApiSource) {
+  check(officialApiSource.providerKind === 'official', 'Riot TFT API source must have providerKind=official');
+  check(officialApiSource.enabled === true && officialApiSource.automatedFetch === false, 'Riot TFT API must be manual-only');
+  check(officialApiSource.updateMode === 'manual-local-only', 'Riot TFT API must use manual-local-only mode');
+  check(officialApiSource.publicPublishEligible === false, 'Personal/Development API output must not be eligible for public publishing');
+}
+
+async function listFiles(directory) {
+  const entries = await fs.readdir(directory, { withFileTypes: true });
+  const files = [];
+  for (const entry of entries) {
+    const entryPath = path.join(directory, entry.name);
+    if (entry.isDirectory()) files.push(...await listFiles(entryPath));
+    else files.push(entryPath);
+  }
+  return files;
+}
+
+const publicDataFiles = [
+  ...await listFiles(path.join(projectRoot, 'data')),
+  ...await listFiles(path.join(projectRoot, 'src/data')),
+].filter((file) => file.endsWith('.json'));
+for (const file of publicDataFiles) {
+  const content = await fs.readFile(file, 'utf8');
+  const relativeFile = path.relative(projectRoot, file);
+  check(!/RGAPI-[A-Za-z0-9_-]{8,}/.test(content), `${relativeFile}: Riot API key-like value found in public data`);
+  check(!content.includes('RIOT_API_KEY'), `${relativeFile}: public data references RIOT_API_KEY`);
+  check(!content.includes('.private-data'), `${relativeFile}: public data references .private-data`);
+  check(!/"(?:puuid|summonerId|accountId|apiKey|riotApiKey|gameName|tagLine)"\s*:/i.test(content), `${relativeFile}: player identifier or private API field found in public data`);
+}
+
+const publicBuildInputs = [
+  ...await listFiles(path.join(projectRoot, 'src')),
+  path.join(projectRoot, 'index.html'),
+  path.join(projectRoot, 'vite.config.ts'),
+].filter((file) => /\.(?:ts|tsx|js|jsx|html)$/.test(file));
+for (const file of publicBuildInputs) {
+  const content = await fs.readFile(file, 'utf8');
+  const relativeFile = path.relative(projectRoot, file);
+  check(!content.includes('.private-data'), `${relativeFile}: public build input references .private-data`);
+  check(!content.includes('RIOT_API_KEY'), `${relativeFile}: public build input references RIOT_API_KEY`);
+  check(!/RGAPI-[A-Za-z0-9_-]{8,}/.test(content), `${relativeFile}: Riot API key-like value found in public build input`);
+}
+
+const gitignore = await fs.readFile(path.join(projectRoot, '.gitignore'), 'utf8');
+check(/^\.private-data\/$/m.test(gitignore), '.gitignore must exclude .private-data/');
+check(/^\.env$/m.test(gitignore) && /^\.env\.\*$/m.test(gitignore), '.gitignore must exclude local environment files');
 
 check(Array.isArray(comps) && comps.length > 0, 'src/data/comps.json must contain at least one comp');
 check(unique(comps.map((comp) => comp.id)), 'comp IDs must be unique');
@@ -222,6 +277,8 @@ if (args.probe) {
     probe = JSON.parse(await fs.readFile(probePath, 'utf8'));
     check(probe.schemaVersion === 1, 'Riot probe schemaVersion must be 1');
     check(probe.sourceId === meta.officialPatchSourceId, 'Riot probe source does not match meta');
+    check(probe.trigger === 'explicit-cli', 'Riot probe must record an explicit CLI trigger');
+    check(['offline-fixture', 'manual-live'].includes(probe.mode), 'Riot probe mode must be offline-fixture or manual-live');
     check(probe.ok === true && probe.health === 'healthy', 'Riot official patch probe is not healthy');
     check(probe.expectedPatch === meta.patch, 'Riot probe expected patch does not match meta');
     check(probe.detectedPatch === meta.patch, `Riot page reports ${probe.detectedPatch || 'no patch'}, expected ${meta.patch}`);
@@ -241,7 +298,9 @@ const summary = {
   comps: comps.length,
   stages: comps.reduce((sum, comp) => sum + (comp.transitionStages?.length || 0), 0),
   registeredSources: registry.sources.length,
-  enabledAutomatedSources: registry.sources.filter((source) => source.enabled && source.automatedFetch).map((source) => source.id),
+  maintenanceMode: meta.automation.mode,
+  scheduledSources: registry.sources.filter((source) => source.automatedFetch).map((source) => source.id),
+  enabledManualSources: registry.sources.filter((source) => source.enabled && !source.automatedFetch).map((source) => source.id),
   disabledThirdPartySources: registry.sources.filter((source) => source.providerKind === 'third-party' && !source.enabled).map((source) => source.id),
   assetsChecked: usedAssets.size,
   probeMode: probe?.mode || null,

@@ -1,0 +1,158 @@
+{
+  "fixture": {
+    "capturedAt": "2026-09-04T00:00:00.000Z",
+    "description": "Synthetic deterministic fixture. It contains no real Riot player data.",
+    "query": {
+      "platform": "na1",
+      "region": "americas",
+      "tier": "GOLD",
+      "division": "I",
+      "page": 1
+    }
+  },
+  "leagueEntries": [
+    {
+      "puuid": "fixture-player-b",
+      "summonerId": "fixture-summoner-b",
+      "queueType": "RANKED_TFT",
+      "tier": "GOLD",
+      "rank": "I",
+      "leaguePoints": 42,
+      "wins": 8,
+      "losses": 9
+    },
+    {
+      "puuid": "fixture-player-a",
+      "summonerId": "fixture-summoner-a",
+      "queueType": "RANKED_TFT",
+      "tier": "GOLD",
+      "rank": "I",
+      "leaguePoints": 64,
+      "wins": 11,
+      "losses": 7
+    }
+  ],
+  "matchIdsByPuuid": {
+    "fixture-player-a": [
+      "NA1_FIXTURE_0001"
+    ],
+    "fixture-player-b": [
+      "NA1_FIXTURE_0002"
+    ]
+  },
+  "matchesById": {
+    "NA1_FIXTURE_0001": {
+      "metadata": {
+        "data_version": "1",
+        "match_id": "NA1_FIXTURE_0001",
+        "participants": [
+          "fixture-player-a",
+          "fixture-opponent-a"
+        ]
+      },
+      "info": {
+        "game_datetime": 1788451200000,
+        "game_length": 2048.5,
+        "game_version": "Version 16.18.1 (fixture)",
+        "queue_id": 1100,
+        "tft_set_number": 18,
+        "participants": [
+          {
+            "puuid": "fixture-player-a",
+            "riotIdGameName": "PrivateFixtureAlpha",
+            "riotIdTagline": "TST1",
+            "placement": 2,
+            "level": 9,
+            "last_round": 38,
+            "players_eliminated": 2,
+            "traits": [],
+            "units": [
+              {
+                "character_id": "TFT18_Zed_Fixture",
+                "tier": 2,
+                "itemNames": [
+                  "TFT_Item_Zeta_Fixture",
+                  "TFT_Item_Alpha_Fixture"
+                ]
+              },
+              {
+                "character_id": "TFT18_Ahri_Fixture",
+                "tier": 3,
+                "itemNames": [
+                  "TFT_Item_Beta_Fixture"
+                ]
+              }
+            ]
+          },
+          {
+            "puuid": "fixture-opponent-a",
+            "riotIdGameName": "PrivateFixtureOpponentA",
+            "riotIdTagline": "TST2",
+            "placement": 1,
+            "level": 9,
+            "last_round": 38,
+            "players_eliminated": 3,
+            "traits": [],
+            "units": []
+          }
+        ]
+      }
+    },
+    "NA1_FIXTURE_0002": {
+      "metadata": {
+        "data_version": "1",
+        "match_id": "NA1_FIXTURE_0002",
+        "participants": [
+          "fixture-player-b",
+          "fixture-opponent-b"
+        ]
+      },
+      "info": {
+        "game_datetime": 1788454800000,
+        "game_length": 1900.25,
+        "game_version": "Version 16.18.1 (fixture)",
+        "queue_id": 1100,
+        "tft_set_number": 18,
+        "participants": [
+          {
+            "puuid": "fixture-player-b",
+            "riotIdGameName": "PrivateFixtureBeta",
+            "riotIdTagline": "TST3",
+            "placement": 4,
+            "level": 8,
+            "last_round": 35,
+            "players_eliminated": 1,
+            "traits": [],
+            "units": [
+              {
+                "character_id": "TFT18_Ahri_Fixture",
+                "tier": 2,
+                "itemNames": [
+                  "TFT_Item_Beta_Fixture"
+                ]
+              },
+              {
+                "character_id": "TFT18_Zed_Fixture",
+                "tier": 2,
+                "itemNames": [
+                  "TFT_Item_Alpha_Fixture"
+                ]
+              }
+            ]
+          },
+          {
+            "puuid": "fixture-opponent-b",
+            "riotIdGameName": "PrivateFixtureOpponentB",
+            "riotIdTagline": "TST4",
+            "placement": 3,
+            "level": 8,
+            "last_round": 35,
+            "players_eliminated": 1,
+            "traits": [],
+            "units": []
+          }
+        ]
+      }
+    }
+  }
+}

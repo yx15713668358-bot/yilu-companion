@@ -2,9 +2,13 @@
   "schemaVersion": 1,
   "policy": {
     "automatedFetchRequiresExplicitPermission": true,
+    "networkAccessMode": "explicit-manual-only",
+    "scheduledFetch": false,
+    "publicBuildSourceNetworkAccess": false,
+    "privateApiOutputTracked": false,
     "thirdPartyDefault": "disabled",
     "newCompositionPublishMode": "review-required",
-    "notes": "只启用有明确授权依据的自动来源。禁止绕过登录、反爬、访问控制或付费墙。"
+    "notes": "公开数据只来自人工审核的静态提交。任何联网检查都必须由维护者显式手动触发；禁止绕过登录、反爬、访问控制或付费墙。"
   },
   "sources": [
     {
@@ -18,8 +22,10 @@
       "purpose": "检测当前S18版本公告页是否可用，并确认页面标示的补丁号。不用于阵容评级。",
       "adapter": "riot-patch-page",
       "enabled": true,
-      "automatedFetch": true,
+      "automatedFetch": false,
+      "updateMode": "manual-on-demand",
       "permissionStatus": "official-public-page",
+      "publicPublishEligible": false,
       "ratingEligible": false,
       "expectedPatch": "18.1",
       "minimumBodyBytes": 10000,
@@ -28,6 +34,23 @@
         "Teamfight Tactics Patch 18.1",
         "PATCH 18.1"
       ]
+    },
+    {
+      "id": "riot-tft-api",
+      "name": "Riot Games TFT API",
+      "aliases": ["Riot TFT API", "tft-match-v1", "tft-league-v1"],
+      "provider": "Riot Games",
+      "providerKind": "official",
+      "url": "https://developer.riotgames.com/docs/tft",
+      "termsUrl": "https://developer.riotgames.com/policies/general",
+      "purpose": "由维护者在本地按需调用官方API，验证已完成对局数据的采集和匿名聚合路径。Personal或Development Key的请求结果仅供本地私用，不进入公开数据。",
+      "adapter": "riot-tft-manual",
+      "enabled": true,
+      "automatedFetch": false,
+      "updateMode": "manual-local-only",
+      "permissionStatus": "personal-or-development-key-local-only",
+      "publicPublishEligible": false,
+      "ratingEligible": false
     },
     {
       "id": "tencent-tft",

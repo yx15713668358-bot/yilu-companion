@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "product": {
     "name": "弈路助手",
-    "release": "v7.0.0-rc1",
+    "release": "v7.0.0-rc2",
     "mode": "static-guide",
     "audience": "国服、白金以下",
     "region": "CN"
@@ -13,14 +13,15 @@
   "contentVerifiedAt": "2026-09-04",
   "officialPatchSourceId": "riot-patch-notes",
   "automation": {
-    "mode": "guarded",
-    "dailySchedule": "Asia/Shanghai 09:17",
-    "publishPolicy": "last-known-good",
-    "freshnessWarningDays": 3,
-    "freshnessBlockDays": 7,
-    "existingCompositionMetrics": "future-adapter-required",
+    "mode": "manual-on-demand",
+    "publishPolicy": "reviewed-static-snapshot",
+    "publicBuildSourceNetworkAccess": "forbidden",
+    "officialPatchCheck": "explicit-manual-only",
+    "officialApiUse": "private-local-only",
+    "personalDevelopmentOutput": "never-public",
+    "productionOutputPolicy": "manual-review-required",
     "newCompositionPolicy": "review-required",
     "thirdPartyFetch": "disabled-until-explicit-permission",
-    "notes": "当前自动检查Riot官方版本页健康和补丁匹配。第三方来源适配器在取得明确许可前保持禁用。"
+    "notes": "公开版只构建人工审核并提交的静态快照。Riot官方补丁页与API仅按需手动检查；Personal或Development Key生成的结果只保存在本地私有目录，禁止进入公开数据和构建产物。"
   }
 }

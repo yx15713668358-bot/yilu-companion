@@ -1,29 +1,32 @@
 # 数据结构
 
-本文件说明 v7 正式版的目标数据结构。v7 尚未公开，开发期间如仍存在聚合的原型数据文件，应以通过校验的最新 Schema 和类型定义为准。
+本文件说明 v7 公开静态数据、未来规范化数据和本地私有API结果之间的边界。当前构建以通过校验的 `src/data/comps.json`、`data/meta.json` 和相关素材清单为准。
 
 ## 目录
 
 ```text
 data/
 ├── meta.json
-├── units.json
-├── items.json
-├── aliases.json
-├── live/
-│   └── source-stats.json
-├── changelog.json
-└── comps/
-    └── <comp-id>.json
+├── source-registry.json
+└── asset-rights.json
+src/data/
+├── comps.json
+└── asset-manifest.json
+.private-data/                 # 被Git忽略；公开构建禁止读取
+└── riot-tft/
+    ├── manual-snapshot.json
+    └── manual-aggregate.json
 ```
 
-- `meta.json`：当前补丁、检查时间、成功更新时间和数据状态。
-- `units.json`：棋子规范 ID、名称、费用和素材引用。
-- `items.json`：装备规范 ID、名称、组件和素材引用。
-- `aliases.json`：不同来源名称到规范 ID 的映射。
-- `live/source-stats.json`：机器更新的来源记录，不包含人工运营结论。
-- `changelog.json`：阵容新增、升降级和来源状态变化。
-- `comps/*.json`：每套阵容的人工审核内容。
+- `data/meta.json`：静态快照适用的赛季、补丁、人工核对日期和发布边界。
+- `data/source-registry.json`：来源用途、许可判断、手动调用方式和公开资格。
+- `data/asset-rights.json`：公开素材的来源、哈希和发布状态。
+- `src/data/comps.json`：当前公开构建使用的人工审核阵容数据。
+- `src/data/asset-manifest.json`：页面素材引用到仓库文件的映射。
+- `.private-data/riot-tft/manual-snapshot.json`：Personal或Development Key手动调用结果，仅本地私用，不属于公开Schema。
+- `.private-data/riot-tft/manual-aggregate.json`：由私有快照生成的去标识化汇总，仍只供本地审核，不属于公开Schema。
+
+未来可把棋子、装备、别名和单阵容拆为规范化文件，但迁移必须保持公开构建只读取已审核、已跟踪的数据。
 
 ## 通用约定
 
@@ -34,31 +37,35 @@ data/
 - 棋盘位置为 `[row, column]`，`row` 范围 `0..3`，`column` 范围 `0..7`。
 - 同一棋盘中位置不得重复。
 - 外部来源字符串视为不可信输入；渲染前必须按字段白名单解析和转义。
+- `data/` 与 `src/data/` 禁止保存API密钥、PUUID、Summoner ID、Account ID、Riot ID或其他玩家标识。
+- `.private-data/`、`.env` 和 `.env.*` 必须被Git忽略，CI与Pages不得读取。
 
 ## `meta.json`
 
 ```json
 {
   "schemaVersion": 1,
+  "product": {
+    "mode": "static-guide",
+    "region": "CN"
+  },
   "set": "S18",
-  "patch": "18.1d",
-  "region": "global",
-  "checkedAt": "2026-09-04T09:17:00+08:00",
-  "lastSuccessfulUpdateAt": "2026-09-04T09:20:00+08:00",
-  "status": "healthy"
+  "patch": "18.1",
+  "contentVerifiedAt": "2026-09-04",
+  "officialPatchSourceId": "riot-patch-notes",
+  "automation": {
+    "mode": "manual-on-demand",
+    "publishPolicy": "reviewed-static-snapshot",
+    "publicBuildSourceNetworkAccess": "forbidden",
+    "officialApiUse": "private-local-only",
+    "personalDevelopmentOutput": "never-public"
+  }
 }
 ```
 
-`status` 可为：
+`contentVerifiedAt` 是公开内容最后一次人工核对日期，不是页面加载时间、API请求时间或“仍为当前版本”的保证。`product.region: CN`描述公开指南的目标读者；Riot官方API样本必须另标其实际平台和区域，不能由此写成国服比赛数据。
 
-- `healthy`：当前补丁与来源检查通过。
-- `degraded`：部分来源失效，仍使用可靠快照。
-- `stale`：可用数据未覆盖当前补丁。
-- `review-required`：发现异常或新阵容，需要人工处理。
-
-示例数值仅用于说明格式，不代表仓库当前数据状态。
-
-## `units.json`
+## 规范化棋子目标结构
 
 ```json
 {
@@ -72,7 +79,7 @@ data/
 
 可选字段包括英文名、羁绊 ID、占用人口和来源版本。特殊单位占用两个人口时显式写 `slotCost: 2`。
 
-## `items.json`
+## 规范化装备目标结构
 
 ```json
 {
@@ -110,7 +117,16 @@ data/
 }
 ```
 
-`sampleSize` 缺失时应为 `null`。比率统一存为 `0..1`，显示层负责转换为百分比。
+`sampleSize` 缺失时应为 `null`。比率统一存为 `0..1`，显示层负责转换为百分比。公开来源记录不得包含玩家级明细或可还原玩家身份的字段。
+
+## 本地私有API结果
+
+手动Riot TFT API工具只能把结果写入 `.private-data/riot-tft/`。该目录可临时包含完成请求所需的玩家标识和比赛明细，因此：
+
+- 不定义为公开数据来源，不由Vite、CI、Pages或离线HTML读取。
+- 不复制进 `data/`、`src/data/`、Issue、PR、Action工件或日志。
+- Personal或Development Key生成的聚合结果也保持私有，不能因删除标识就直接公开。
+- 未来Production结果只有在授权范围允许、完成匿名化和人工审核后，才能转写为新的公开来源记录；不得直接复制原始快照。
 
 ## 阵容文件
 
@@ -126,7 +142,7 @@ data/
   "pivots": [],
   "capPlan": {},
   "positioning": [],
-  "automation": {}
+  "review": {}
 }
 ```
 
@@ -166,7 +182,7 @@ data/
 - `avoid`：不要随意合成的装备。
 - `components`：散件优先级。
 
-装备路线是人工审核数据，自动任务不得直接覆盖。
+装备路线是人工审核数据，脚本不得直接覆盖。
 
 ### `milestones`
 
@@ -212,13 +228,13 @@ data/
 
 至少提供默认站位；可附对单侧主 C、对范围伤害等静态变体。所有站位只作赛前或手动旁读建议，不读取实时对手数据。
 
-### `automation`
+### `review`
 
-用于控制自动更新：
+用于记录公开资格：
 
-- `allowStatsUpdate`：是否允许更新来源统计。
-- `allowRankingUpdate`：是否允许按规则调整排序。
-- `editorialReviewRequired`：编辑内容变更是否强制人工审核，正式阵容应为 `true`。
+- `status`：`candidate`、`review-required` 或 `approved-for-public`。
+- `reviewedAt`：最后人工复核日期。
+- `sourceReviewRequired`：来源或统计变化时是否需要重新复核，正式阵容应为 `true`。
 - `fingerprintVersion`：阵容指纹算法版本。
 
 ## 校验规则
@@ -233,4 +249,5 @@ data/
 - 转阵目标存在且不会形成无提示死循环。
 - 正式主推荐满足来源数量和补丁一致性要求。
 - 页面引用的素材存在且已通过发布许可检查。
-
+- 公开数据不含密钥格式、玩家标识字段或私有目录引用。
+- 默认构建不联网，也不读取 `.private-data/` 或 `RIOT_API_KEY`。

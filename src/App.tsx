@@ -84,9 +84,9 @@ export function App() {
           <span><b>弈路助手</b><small>阵容学习与对局旁读</small></span>
         </a>
         <nav className="main-nav" aria-label="主导航">
-          <a className="active" href="#comps">今日阵容</a>
+          <a className="active" href="#comps">阵容快照</a>
           <a href="#opening">开局索引</a>
-          <a href="#updates">更新记录</a>
+          <a href="#updates">核对信息</a>
         </nav>
         <div className="header-actions">
           <a className="repo-badge" href="https://github.com/yx15713668358-bot/yilu-companion" target="_blank" rel="noreferrer">GitHub</a>
@@ -99,12 +99,12 @@ export function App() {
         <section className="status-deck" id="updates">
           <div className="status-copy">
             <span className="status-kicker">SET 18 · {siteMeta.patchLabel}</span>
-            <h1>当前阵容，照着阶段走</h1>
-            <p>内容核对于{siteMeta.contentVerifiedAt}。每日版本检查已启用；发布失败时继续保留上一份可靠数据。</p>
+            <h1>静态阵容，照着阶段走</h1>
+            <p>这是人工核对并提交的静态快照，核对日期为{siteMeta.contentVerifiedAt}。页面不会自动更新；维护者可按需运行官方Riot API私有校验，Personal或Development结果只留在本地。</p>
           </div>
           <div className="status-facts">
-            <div><span className="health-dot" />官方版本检查已配置</div>
-            <dl><div><dt>最后核对</dt><dd>{siteMeta.contentVerifiedAt.slice(5)}</dd></div><div><dt>当前阵容</dt><dd>{comps.length}套</dd></div><div><dt>过渡阶段</dt><dd>{comps.reduce((sum, comp) => sum + comp.transitionStages.length, 0)}个</dd></div></dl>
+            <div><span className="health-dot" />手动维护 · 官方API按需校验</div>
+            <dl><div><dt>最后核对</dt><dd>{siteMeta.contentVerifiedAt.slice(5)}</dd></div><div><dt>快照阵容</dt><dd>{comps.length}套</dd></div><div><dt>过渡阶段</dt><dd>{comps.reduce((sum, comp) => sum + comp.transitionStages.length, 0)}个</dd></div></dl>
           </div>
         </section>
 
@@ -151,7 +151,7 @@ export function App() {
 
       <footer className="site-footer">
         <img src={yiluMark} alt="" />
-        <div><p><b>非官方玩家工具。</b> 不读取客户端、实时对局或对手信息；来源数据分别展示，不合成虚假的统一胜率。 {!__SINGLE_FILE__ ? <><a href="./privacy.html">隐私说明</a> · <a href="./terms.html">使用条款</a></> : null}</p><p className="riot-notice">Yilu Companion isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p></div>
+        <div><p><b>非官方玩家工具。</b> 公开页面是人工审核的静态快照，不调用Riot API，也不读取客户端、实时对局或对手信息；来源数据分别展示，不合成虚假的统一胜率。 {!__SINGLE_FILE__ ? <><a href="./privacy.html">隐私说明</a> · <a href="./terms.html">使用条款</a></> : null}</p><p className="riot-notice">Yilu Companion isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p></div>
         <span>{siteMeta.product.release}</span>
       </footer>
 

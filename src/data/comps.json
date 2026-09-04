@@ -3,7 +3,7 @@
     "id": "veigar",
     "order": 1,
     "name": "约德尔小法",
-    "consensus": "当前 S · 易执行",
+    "consensus": "核对时 S · 易执行",
     "confidence": "main",
     "beginnerRank": 3,
     "difficulty": "新手推荐",
@@ -1035,7 +1035,7 @@
     },
     "currentTier": "S",
     "trend": "↑ 前移",
-    "updateNote": "热修后仍是当前最适合低段位照抄的慢D阵容之一。",
+    "updateNote": "2026-09-04核对时仍是适合低段位参考的慢D阵容之一。",
     "prototype": {
       "headline": "5级慢D｜维迦、可酷伯、雷克塞追3",
       "brief": "最容易照着执行的法系慢D，核心数量够再锁定。",
@@ -1260,7 +1260,7 @@
     "boardNote": "近战不要扎堆；易从侧面切入，克格莫沉底另一侧，防阿狸AOE。",
     "order": 2,
     "confidence": "main",
-    "consensus": "当前 S/A · 削弱后仍强",
+    "consensus": "核对时 S/A · 削弱后仍强",
     "beginnerRank": 5,
     "sourceStats": [
       {
@@ -2179,7 +2179,7 @@
     "order": 3,
     "name": "猎人希维尔",
     "currentTier": "A",
-    "consensus": "当前 S/A · 新增",
+    "consensus": "核对时 S/A · 新增",
     "trend": "NEW 新增",
     "updateNote": "本次新增的AD速8。比九五阵容更容易落地，但4-2需要至少一张两星主C和两星前排。",
     "confidence": "main",
@@ -3538,7 +3538,7 @@
     "boardNote": "蛇女沉底角；对面有切后就换边。主坦站中间，其他护卫分散吃伤害。",
     "order": 4,
     "confidence": "main",
-    "consensus": "当前 A · 热修后回落",
+    "consensus": "核对时 A · 热修后回落",
     "beginnerRank": 1,
     "sourceStats": [
       {
@@ -4663,7 +4663,7 @@
     "boardNote": "凯特琳沉底角，艾希/希维尔分散；主坦中置，防范围伤害一次覆盖全部后排。",
     "order": 5,
     "confidence": "main",
-    "consensus": "当前 A · 样本较小",
+    "consensus": "核对时 A · 样本较小",
     "beginnerRank": 2,
     "sourceStats": [
       {
@@ -5567,7 +5567,7 @@
     "id": "rift-reroll",
     "order": 6,
     "name": "峡谷野怪慢D",
-    "consensus": "当前 A · 热修后回落",
+    "consensus": "核对时 A · 热修后回落",
     "confidence": "main",
     "beginnerRank": 2,
     "difficulty": "新手推荐",
@@ -6647,7 +6647,7 @@
     "id": "ahri",
     "order": 7,
     "name": "神谕阿狸",
-    "consensus": "当前 A/S · 来源分歧",
+    "consensus": "核对时 A/S · 来源分歧",
     "confidence": "main",
     "beginnerRank": 6,
     "difficulty": "进阶阵容",
@@ -7819,7 +7819,7 @@
     "name": "AP 8-4",
     "goal": "chicken",
     "confidence": "chicken",
-    "consensus": "当前 S/A · 热修受益",
+    "consensus": "核对时 S/A · 热修受益",
     "beginnerRank": 9,
     "difficulty": "进阶吃鸡",
     "style": "4-2速8",
@@ -10198,7 +10198,7 @@
     "order": 22,
     "name": "高费峡谷野怪",
     "currentTier": "S",
-    "consensus": "当前 S/A · 新增",
+    "consensus": "核对时 S/A · 新增",
     "trend": "NEW 新增",
     "updateNote": "与“峡谷野怪慢D”完全不同：这是靠经济和高费两星的速9吃鸡路线。",
     "confidence": "chicken",
@@ -11375,7 +11375,7 @@
     "order": 23,
     "name": "终极森林九五",
     "currentTier": "S",
-    "consensus": "当前 S · 新增高上限",
+    "consensus": "核对时 S · 新增高上限",
     "trend": "NEW 新增",
     "updateNote": "德莱文热修增强后出现的Fast 9高费板。吃鸡率高，但只能在健康血量和经济下选择。",
     "confidence": "chicken",
@@ -12788,7 +12788,7 @@
     "boardNote": "纳尔、厄斐琉斯、莉莉娅尽量同侧；月光单位分两边，注意躲切后。",
     "order": 30,
     "confidence": "conditional",
-    "consensus": "当前 A/S · 指纹不同",
+    "consensus": "核对时 A/S · 指纹不同",
     "beginnerRank": 9,
     "sourceStats": [
       {
@@ -13945,7 +13945,7 @@
     "boardNote": "德莱文站对角；凯南和对手主C同侧切入；巨龙踩中间的艾翁格。",
     "order": 31,
     "confidence": "conditional",
-    "consensus": "当前 A · 热修增强",
+    "consensus": "核对时 A · 热修增强",
     "beginnerRank": 8,
     "sourceStats": [
       {
@@ -14894,7 +14894,7 @@
     "id": "alune",
     "order": 32,
     "name": "法师拉露恩",
-    "consensus": "当前 B/A · 证据不足",
+    "consensus": "核对时 B/A · 证据不足",
     "confidence": "conditional",
     "beginnerRank": 7,
     "difficulty": "进阶阵容",
@@ -14918,7 +14918,7 @@
         "source": "EmblemComp",
         "rating": "B",
         "updated": "2026-09-03",
-        "note": "完整实时榜未进入S/A主流指纹"
+        "note": "2026-09-03核对榜未进入S/A主流指纹"
       }
     ],
     "requirements": [
@@ -16018,7 +16018,7 @@
     },
     "currentTier": "B",
     "trend": "↓ 降为条件",
-    "conditionReason": "只在拉露恩早来、魔女体系顺且法装完整时玩；实时大样本榜缺少S/A交叉支持。",
+    "conditionReason": "只在拉露恩早来、魔女体系顺且法装完整时玩；2026-09-03大样本榜缺少S/A交叉支持。",
     "updateNote": "本次从稳定吃分区移到条件区，避免只看旧榜硬玩。",
     "prototype": {
       "headline": "4-2速8｜拉露恩＋主坦两星后停D",
@@ -16044,7 +16044,7 @@
     "name": "莲华阿狸",
     "goal": "conditional",
     "confidence": "conditional",
-    "consensus": "当前 A/C · 明显回落",
+    "consensus": "核对时 A/C · 明显回落",
     "beginnerRank": 10,
     "difficulty": "进阶吃鸡",
     "style": "4-2速8",
@@ -17207,7 +17207,7 @@
     "order": 34,
     "name": "日炎凯尔霞",
     "currentTier": "B",
-    "consensus": "当前 S/B · 来源冲突",
+    "consensus": "核对时 S/B · 来源冲突",
     "trend": "NEW 条件新增",
     "updateNote": "Mobalytics评S，但大样本榜仅B；只在太阳/永森牌特别胡时展示，不进入默认前三。",
     "confidence": "conditional",

@@ -1,20 +1,17 @@
-name: Daily source health check
+name: Manual Riot patch check
 
 on:
-  schedule:
-    # GitHub cron uses UTC. 01:17 UTC = 09:17 Asia/Shanghai.
-    - cron: '17 1 * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: daily-source-health
+  group: manual-riot-patch-check
   cancel-in-progress: false
 
 jobs:
-  guarded-check:
+  manual-check:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -32,9 +29,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Probe official Riot patch page
+      - name: Check official Riot patch page on demand
         id: riot_probe
-        run: node scripts/automation/check-riot.mjs --output .automation/riot-probe.json
+        run: node scripts/automation/check-riot.mjs --live --output .automation/riot-probe.json
 
       - name: Run data quality gate
         if: always()
@@ -62,5 +59,5 @@ jobs:
           include-hidden-files: true
           retention-days: 14
 
-      # This workflow never commits or deploys. A failed source or quality check
-      # therefore cannot replace the last known-good GitHub Pages deployment.
+      # This workflow runs only after an explicit manual dispatch. It never
+      # commits, changes public data, or deploys GitHub Pages.

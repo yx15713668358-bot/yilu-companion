@@ -33,11 +33,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Exercise Riot detector without network
+      - name: Test Riot patch parser with the offline fixture
         run: node scripts/automation/check-riot.mjs --offline --output .automation/riot-probe.json
 
-      - name: Run data quality gate
+      - name: Validate reviewed static data and fixture result
         run: node scripts/automation/quality-gate.mjs --probe .automation/riot-probe.json
+
+      - name: Test manual Riot TFT API tool without network
+        run: npm run riot:tft:test
 
       - name: Type-check
         run: npm run check
