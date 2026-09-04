@@ -139,6 +139,7 @@ p { text-wrap: pretty; }
 .cost-4 .unit-art { border-color: #9a72b9; }
 .cost-5 .unit-art { border-color: var(--gold); }
 .slot-note { position: absolute; top: 5px; left: 5px; padding: 2px 5px; border-radius: 4px; background: rgba(9,13,11,.9); color: var(--gold-soft); font-size: 11px; }
+.asset-note { position: absolute; right: 4px; bottom: 4px; padding: 2px 4px; border-radius: 3px; background: rgba(9,13,11,.9); color: var(--muted); font-size: 9px; }
 .unit-card figcaption { display: grid; gap: 5px; margin-top: 7px; }
 .unit-card figcaption strong { overflow: hidden; color: var(--text); font-size: 12px; line-height: 1.2; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
 .role-label { min-height: 22px; display: grid; place-items: center; padding: 2px 5px; border: 1px solid var(--line); border-radius: 4px; color: var(--muted); font-size: 11px; line-height: 1.15; white-space: normal; text-align: center; }

@@ -26,4 +26,8 @@ export function assetUrl(key: string): string {
   return fileName ? imageByName[fileName] ?? '' : '';
 }
 
+export function isAssetPlaceholder(key: string): boolean {
+  return (fileManifest as Record<string, string>)[key] === 'asset-pending.svg';
+}
+
 export type { Comp, ItemHolder, ItemRef, Loadout, PostCapPlan, TransitionStage, UnitRef } from './types';

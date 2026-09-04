@@ -59,6 +59,7 @@ GitHub Pages构建位于 `dist/`；可双击使用的单HTML位于 `dist-single/
 
 网站隐私与使用边界见 [PRIVACY.md](PRIVACY.md) 和 [TERMS.md](TERMS.md)。
 Riot产品登记材料草稿见 [docs/RIOT_PRODUCT_REGISTRATION_DRAFT.md](docs/RIOT_PRODUCT_REGISTRATION_DRAFT.md)。
+第三方数据授权询问草稿见 [docs/DATA_SOURCE_PERMISSION_REQUESTS.md](docs/DATA_SOURCE_PERMISSION_REQUESTS.md)。
 
 ## 参与贡献
 

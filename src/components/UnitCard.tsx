@@ -1,4 +1,4 @@
-import { assetUrl, type ItemRef, type UnitRef } from '../data';
+import { assetUrl, isAssetPlaceholder, type ItemRef, type UnitRef } from '../data';
 
 interface UnitCardProps {
   unit: UnitRef;
@@ -23,6 +23,7 @@ export function UnitCard({ unit, items = [], compact = false, showRole = true }:
     <figure className={`unit-card ${compact ? 'is-compact' : ''} cost-${cost}`}>
       <div className="unit-art">
         <img src={image} alt={unit.name} />
+        {isAssetPlaceholder(unit.asset) ? <span className="asset-note">素材待补</span> : null}
         {unit.slotCost === 2 ? <span className="slot-note">2人口</span> : null}
       </div>
       <figcaption>
