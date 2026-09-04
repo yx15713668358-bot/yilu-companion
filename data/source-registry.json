@@ -48,7 +48,7 @@
       "enabled": true,
       "automatedFetch": false,
       "updateMode": "manual-local-only",
-      "permissionStatus": "personal-or-development-key-local-only",
+      "permissionStatus": "personal-application-pending-review",
       "publicPublishEligible": false,
       "ratingEligible": false
     },

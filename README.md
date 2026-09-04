@@ -51,6 +51,8 @@ npm run check:patch:live
 
 手动Riot TFT API工具见 [docs/RIOT_TFT_MANUAL_API.md](docs/RIOT_TFT_MANUAL_API.md)。它只从本地环境变量读取密钥，并把结果写入被Git忽略的 `.private-data/`。`npm run verify`、CI和Pages部署都不会调用官方API。
 
+Personal私有原型申请已创建（App ID `877489`），当前为 `Pending Review`。在Riot批准并提供可用密钥前，真实API联网模式尚未验证；默认dry-run和离线夹具不受影响。
+
 ## 数据维护与公开边界
 
 1. 官方补丁说明只用于确认版本和数值改动。

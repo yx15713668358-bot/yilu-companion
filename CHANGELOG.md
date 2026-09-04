@@ -25,6 +25,7 @@
 - 增加Riot TFT API本地手动工具入口。默认不联网，只有显式参数才请求API或写入私有目录。
 - 页面状态文案改为“手动维护 · 公开静态版”，并明确显示人工核对日期。
 - Riot Production申请暂停；支持请求草稿已取消且从未提交。
+- Riot Personal私有原型申请已创建（App ID `877489`），当前处于 `Pending Review`；尚未取得或使用真实密钥。
 
 ### Security
 

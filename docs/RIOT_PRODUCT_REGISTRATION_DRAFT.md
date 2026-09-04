@@ -6,7 +6,7 @@
 
 ## 当前 Personal 私有原型申请草稿
 
-状态：Developer Portal 的 Personal 申请表已打开，尚未填写、未完成人机验证、未提交，也未创建持久密钥。
+状态：已于2026年9月4日提交，Riot已创建Personal应用；App ID为`877489`，当前状态为`Pending Review`。尚未批准或发放可用Personal Key，因此未执行真实API请求。
 
 - Product name: `Yilu Companion Private API Prototype`
 - Game: `Teamfight Tactics`
