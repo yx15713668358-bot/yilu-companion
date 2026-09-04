@@ -2,7 +2,10 @@
 
 面向《云顶之弈》玩家的中文阵容学习与对局旁读工具。目标不是再做一份“只给最终答案”的阵容榜，而是把一局游戏拆成能直接执行的步骤：什么时候升级、留多少钱、是否搜牌、哪些牌必须留、装备先给谁、何时换装，以及条件不对时转去哪里。
 
-> 项目状态：**v7.0.0 发布候选。** 已迁移16套阵容与80个过渡阶段，并接入GitHub Pages和每日官方版本健康检查；第三方阵容数据自动抓取及Riot产品登记仍待完成。
+- 在线版：https://yx15713668358-bot.github.io/yilu-companion/
+- 离线单HTML：https://yx15713668358-bot.github.io/yilu-companion/downloads/yilu-s18-offline.html
+
+> 项目状态：**v7.0.0 公开测试版。** 已迁移16套阵容与80个过渡阶段，GitHub Pages和每日官方版本健康检查已经运行；第三方阵容数据自动抓取及Riot产品登记仍待完成。
 
 ## 核心能力
 
@@ -11,7 +14,7 @@
 - 展示必留牌、临时牌、装备合成顺序、代持人与换装时点。
 - 提供成型后的升人口路线、替换顺序和决赛圈站位建议。
 - 对不同来源的评级、样本和统计口径分别展示，不制造“统一胜率”。
-- 计划通过 GitHub Actions 检查公开数据，并通过 GitHub Pages 免费发布。
+- GitHub Actions每天检查Riot官方补丁；全部质量闸门通过后才允许Pages部署。
 - 保留可直接双击使用的离线单 HTML 构建。
 
 ## 不做什么
@@ -22,7 +25,7 @@
 - 不承诺某套阵容必定上分或获得第一名。
 - 不把来源不足的新阵容自动发布为正式攻略。
 
-## 当前开发版本
+## 当前版本
 
 当前 v7 使用 React、TypeScript 和 Vite。页面已经采用矩形棋子牌、全屏详情和五阶段战术板，包含16套阵容与80个阶段。
 
@@ -62,8 +65,8 @@ GitHub Pages构建位于 `dist/`；可双击使用的单HTML位于 `dist-single/
 
 - 本仓库中由项目贡献者编写的**程序代码**采用 [MIT License](LICENSE)。
 - MIT 不覆盖棋子图片、装备图片、游戏名称、第三方统计、第三方文字、字体、商标或其他外部内容。
-- 当前开发原型仍包含等待清理或授权核验的历史素材，**不得因为仓库公开就推定这些素材可以再分发或商用**。
-- 发布前素材处理清单见 [ASSET_SOURCES.md](ASSET_SOURCES.md)，完整声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- 当前136项运行素材已从CommunityDragon的Riot客户端素材转换路径重新获取，并记录逐项URL和哈希；它们不纳入MIT，也不代表可以脱离Riot政策商用。
+- 素材处理清单见 [ASSET_SOURCES.md](ASSET_SOURCES.md)，完整声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 非官方声明
 
